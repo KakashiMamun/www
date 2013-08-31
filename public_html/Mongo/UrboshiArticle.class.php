@@ -9,4 +9,9 @@
 
 class UrboshiArticle {
 
+    public static function fs(){
+
+    }
+
+
 }
