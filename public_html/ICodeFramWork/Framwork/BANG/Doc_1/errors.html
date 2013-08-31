@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>phpDocumentor Parser Errors and Warnings</title>
+			<link rel="stylesheet" href="media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+						<a href="#Post-parsing">Post-parsing</a><br>
+<a href="#addAdministrator.php">addAdministrator.php</a><br>
+<a href="#addSite.php">addSite.php</a><br>
+<a href="#Admin.class.php">Admin.class.php</a><br>
+<a href="#Admin.php">Admin.php</a><br>
+<a href="#adminConnection.php">adminConnection.php</a><br>
+<a href="#Administrator.class.php">Administrator.class.php</a><br>
+<a href="#administratorBasicInfo.php">administratorBasicInfo.php</a><br>
+<a href="#administratorManagement.php">administratorManagement.php</a><br>
+<a href="#arrays.php">arrays.php</a><br>
+<a href="#ArrayToXML.class.php">ArrayToXML.class.php</a><br>
+<a href="#autoCompleteAdministrator.php">autoCompleteAdministrator.php</a><br>
+<a href="#BackEndController.class.php">BackEndController.class.php</a><br>
+<a href="#backIncludes.php">backIncludes.php</a><br>
+<a href="#Blank.class.php">Blank.class.php</a><br>
+<a href="#buffer.php">buffer.php</a><br>
+<a href="#City.class.php">City.class.php</a><br>
+<a href="#commonFunctions.php">commonFunctions.php</a><br>
+<a href="#Company.class.php">Company.class.php</a><br>
+<a href="#configFile.php">configFile.php</a><br>
+<a href="#configuration.php">configuration.php</a><br>
+<a href="#Country.class.php">Country.class.php</a><br>
+<a href="#Director.class.php">Director.class.php</a><br>
+<a href="#Director.php">Director.php</a><br>
+<a href="#directories.php">directories.php</a><br>
+<a href="#editProfile.php">editProfile.php</a><br>
+<a href="#email-andy.php">email-andy.php</a><br>
+<a href="#emailMuktadir.php">emailMuktadir.php</a><br>
+<a href="#fetchEmail.php">fetchEmail.php</a><br>
+<a href="#fileUpload.php">fileUpload.php</a><br>
+<a href="#firstTime.php">firstTime.php</a><br>
+<a href="#footer.php">footer.php</a><br>
+<a href="#frontIncludes.php">frontIncludes.php</a><br>
+<a href="#genericEditProfile.php">genericEditProfile.php</a><br>
+<a href="#genericform.php">genericform.php</a><br>
+<a href="#genericTable.php">genericTable.php</a><br>
+<a href="#getAdministratorRow.php">getAdministratorRow.php</a><br>
+<a href="#getSuperUser.php">getSuperUser.php</a><br>
+<a href="#googleMap.php">googleMap.php</a><br>
+<a href="#guestConnection.php">guestConnection.php</a><br>
+<a href="#Header.class.php">Header.class.php</a><br>
+<a href="#header.php">header.php</a><br>
+<a href="#headerWithNoStyle.php">headerWithNoStyle.php</a><br>
+<a href="#htmlHead.php">htmlHead.php</a><br>
+<a href="#ICodeCache.class.php">ICodeCache.class.php</a><br>
+<a href="#ICodeCart.class.php">ICodeCart.class.php</a><br>
+<a href="#ICodeCategory.class.php">ICodeCategory.class.php</a><br>
+<a href="#ICodeConfig.class.php">ICodeConfig.class.php</a><br>
+<a href="#ICodeDB.class.php">ICodeDB.class.php</a><br>
+<a href="#ICodeError.class.php">ICodeError.class.php</a><br>
+<a href="#ICodeFile.class.php">ICodeFile.class.php</a><br>
+<a href="#ICodeFormValidation.class.php">ICodeFormValidation.class.php</a><br>
+<a href="#ICodeGraphics.class.php">ICodeGraphics.class.php</a><br>
+<a href="#ICodeMail.php">ICodeMail.php</a><br>
+<a href="#ICodeMailTemplate.class.php">ICodeMailTemplate.class.php</a><br>
+<a href="#ICodeNews.class.php">ICodeNews.class.php</a><br>
+<a href="#ICodeNewsLetter.class.php">ICodeNewsLetter.class.php</a><br>
+<a href="#ICodePaypal.class.php">ICodePaypal.class.php</a><br>
+<a href="#ICodeRenderer.class.php">ICodeRenderer.class.php</a><br>
+<a href="#ICodeRSS.class.php">ICodeRSS.class.php</a><br>
+<a href="#ICodeStatus.php">ICodeStatus.php</a><br>
+<a href="#ICodeTools.class.php">ICodeTools.class.php</a><br>
+<a href="#index.php">index.php</a><br>
+<a href="#installer.php">installer.php</a><br>
+<a href="#invitation.php">invitation.php</a><br>
+<a href="#IPN.php">IPN.php</a><br>
+<a href="#isRead.php">isRead.php</a><br>
+<a href="#Layout.class.php">Layout.class.php</a><br>
+<a href="#library.php">library.php</a><br>
+<a href="#login.php">login.php</a><br>
+<a href="#loginCredential.php">loginCredential.php</a><br>
+<a href="#logout.php">logout.php</a><br>
+<a href="#manageSite.php">manageSite.php</a><br>
+<a href="#memberIncludes.php">memberIncludes.php</a><br>
+<a href="#menuTimeout.php">menuTimeout.php</a><br>
+<a href="#mzLibrary.php">mzLibrary.php</a><br>
+<a href="#newNotification.php">newNotification.php</a><br>
+<a href="#noCacheHeader.php">noCacheHeader.php</a><br>
+<a href="#notificationCron.php">notificationCron.php</a><br>
+<a href="#notificationOperations.php">notificationOperations.php</a><br>
+<a href="#notificationSearch.php">notificationSearch.php</a><br>
+<a href="#payForSite.php">payForSite.php</a><br>
+<a href="#Permission.class.php">Permission.class.php</a><br>
+<a href="#phpinfo.php">phpinfo.php</a><br>
+<a href="#propagate.php">propagate.php</a><br>
+<a href="#recaptchalib.php">recaptchalib.php</a><br>
+<a href="#register.php">register.php</a><br>
+<a href="#registerAdministrator.php">registerAdministrator.php</a><br>
+<a href="#registerDirector.php">registerDirector.php</a><br>
+<a href="#registerSuperAdministrator.php">registerSuperAdministrator.php</a><br>
+<a href="#reinstate.php">reinstate.php</a><br>
+<a href="#reinstateForm.php">reinstateForm.php</a><br>
+<a href="#reinstateOther.php">reinstateOther.php</a><br>
+<a href="#session.php">session.php</a><br>
+<a href="#setPassword.php">setPassword.php</a><br>
+<a href="#site.php">site.php</a><br>
+<a href="#siteEditForm.php">siteEditForm.php</a><br>
+<a href="#siteHtml.php">siteHtml.php</a><br>
+<a href="#siteManagement.php">siteManagement.php</a><br>
+<a href="#SMS.class.php">SMS.class.php</a><br>
+<a href="#sms.php">sms.php</a><br>
+<a href="#subscriptionTest.php">subscriptionTest.php</a><br>
+<a href="#SuperAdministrator.class.php">SuperAdministrator.class.php</a><br>
+<a href="#SuperAdministrator.php">SuperAdministrator.php</a><br>
+<a href="#suspend.php">suspend.php</a><br>
+<a href="#suspendOther.php">suspendOther.php</a><br>
+<a href="#SystemController.class.php">SystemController.class.php</a><br>
+<a href="#timeoutManagement.js.php">timeoutManagement.js.php</a><br>
+<a href="#User.class.php">User.class.php</a><br>
+<a href="#userConnection.php">userConnection.php</a><br>
+<a name="acceptPayment.php"></a>
+<h1>acceptPayment.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 8</b> - File "C:\wamp\www\BANG\testScripts\acceptPayment.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="addAdministrator.php"></a>
+<h1>addAdministrator.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 47</b> - File "C:\wamp\www\BANG\ajax\addAdministrator.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 93</b> - File "C:\wamp\www\BANG\forms\addAdministrator.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="addSite.php"></a>
+<h1>addSite.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 122</b> - File "C:\wamp\www\BANG\forms\addSite.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="Admin.class.php"></a>
+<h1>Admin.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Admin<br>
+<b>Warning on line 67</b> - File "C:\wamp\www\BANG\classes\Admin.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="Admin.php"></a>
+<h1>Admin.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 12</b> - File "C:\wamp\www\BANG\member\classPages\Admin.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="adminConnection.php"></a>
+<h1>adminConnection.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 4</b> - File "C:\wamp\www\BANG\woohuuIncludes\adminConnection.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 4</b> - File "C:\wamp\www\BANG\serverIncludes\adminConnection.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 4</b> - File "C:\wamp\www\BANG\includes\adminConnection.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="Administrator.class.php"></a>
+<h1>Administrator.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class Administrator<br>
+<b>Warning on line 359</b> - File "C:\wamp\www\BANG\classes\Administrator.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="administratorBasicInfo.php"></a>
+<h1>administratorBasicInfo.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 90</b> - File "C:\wamp\www\BANG\forms\administratorBasicInfo.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="administratorManagement.php"></a>
+<h1>administratorManagement.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 159</b> - File "C:\wamp\www\BANG\forms\administratorManagement.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="arrays.php"></a>
+<h1>arrays.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 9</b> - File "C:\wamp\www\BANG\includes\arrays.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ArrayToXML.class.php"></a>
+<h1>ArrayToXML.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class ArrayToXML<br>
+<b>Warning on line 100</b> - File "C:\wamp\www\BANG\classes\ArrayToXML.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="autoCompleteAdministrator.php"></a>
+<h1>autoCompleteAdministrator.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 26</b> - File "C:\wamp\www\BANG\ajax\autoCompleteAdministrator.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="BackEndController.class.php"></a>
+<h1>BackEndController.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class BackEndController<br>
+<b>Warning on line 7</b> - File "C:\wamp\www\BANG\classes\BackEndController.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="backIncludes.php"></a>
+<h1>backIncludes.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - File "C:\wamp\www\BANG\includes\backIncludes.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="Blank.class.php"></a>
+<h1>Blank.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class Blank<br>
+<b>Warning on line 152</b> - File "C:\wamp\www\BANG\classes\Blank.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="buffer.php"></a>
+<h1>buffer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 8</b> - File "C:\wamp\www\BANG\testScripts\buffer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="City.class.php"></a>
+<h1>City.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class City<br>
+<b>Warning on line 74</b> - File "C:\wamp\www\BANG\classes\City.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="commonFunctions.php"></a>
+<h1>commonFunctions.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 312</b> - File "C:\wamp\www\BANG\includes\commonFunctions.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="Company.class.php"></a>
+<h1>Company.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class Company<br>
+<b>Warning on line 184</b> - File "C:\wamp\www\BANG\classes\Company.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="configFile.php"></a>
+<h1>configFile.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 35</b> - File "C:\wamp\www\BANG\includes\configFile.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="configuration.php"></a>
+<h1>configuration.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 141</b> - File "C:\wamp\www\BANG\forms\configuration.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="Country.class.php"></a>
+<h1>Country.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class Country<br>
+<b>Warning on line 74</b> - File "C:\wamp\www\BANG\classes\Country.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="Director.class.php"></a>
+<h1>Director.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Director<br>
+<b>Warning on line 146</b> - File "C:\wamp\www\BANG\classes\Director.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="Director.php"></a>
+<h1>Director.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 16</b> - File "C:\wamp\www\BANG\member\classPages\Director.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="directories.php"></a>
+<h1>directories.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - File "C:\wamp\www\BANG\includes\directories.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 9</b> - File "C:\wamp\www\BANG\woohuuIncludes\directories.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 9</b> - File "C:\wamp\www\BANG\serverIncludes\directories.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="editProfile.php"></a>
+<h1>editProfile.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 53</b> - File "C:\wamp\www\BANG\forms\editProfile.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="email-andy.php"></a>
+<h1>email-andy.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 5</b> - File "C:\wamp\www\BANG\testScripts\email-andy.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="emailMuktadir.php"></a>
+<h1>emailMuktadir.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - File "C:\wamp\www\BANG\testScripts\emailMuktadir.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="fetchEmail.php"></a>
+<h1>fetchEmail.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 42</b> - File "C:\wamp\www\BANG\api\fetchEmail.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="fileUpload.php"></a>
+<h1>fileUpload.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - File "C:\wamp\www\BANG\testScripts\fileUpload.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="firstTime.php"></a>
+<h1>firstTime.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - File "C:\wamp\www\BANG\firstTime.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="footer.php"></a>
+<h1>footer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 16</b> - File "C:\wamp\www\BANG\footer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 18</b> - File "C:\wamp\www\BANG\member\footer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="frontIncludes.php"></a>
+<h1>frontIncludes.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - File "C:\wamp\www\BANG\includes\frontIncludes.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="genericEditProfile.php"></a>
+<h1>genericEditProfile.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 130</b> - File "C:\wamp\www\BANG\forms\genericEditProfile.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="genericform.php"></a>
+<h1>genericform.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 63</b> - File "C:\wamp\www\BANG\forms\genericform.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="genericTable.php"></a>
+<h1>genericTable.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 44</b> - File "C:\wamp\www\BANG\forms\genericTable.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="getAdministratorRow.php"></a>
+<h1>getAdministratorRow.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 26</b> - File "C:\wamp\www\BANG\ajax\getAdministratorRow.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="getSuperUser.php"></a>
+<h1>getSuperUser.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 23</b> - File "C:\wamp\www\BANG\api\getSuperUser.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="googleMap.php"></a>
+<h1>googleMap.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 44</b> - File "C:\wamp\www\BANG\includes\googleMap.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="guestConnection.php"></a>
+<h1>guestConnection.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 4</b> - File "C:\wamp\www\BANG\includes\guestConnection.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="Header.class.php"></a>
+<h1>Header.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Header<br>
+<b>Warning on line 10</b> - File "C:\wamp\www\BANG\classes\Header.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="header.php"></a>
+<h1>header.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 89</b> - File "C:\wamp\www\BANG\header.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 93</b> - File "C:\wamp\www\BANG\member\header.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="headerWithNoStyle.php"></a>
+<h1>headerWithNoStyle.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 64</b> - File "C:\wamp\www\BANG\member\headerWithNoStyle.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="htmlHead.php"></a>
+<h1>htmlHead.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 46</b> - File "C:\wamp\www\BANG\htmlHead.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 87</b> - File "C:\wamp\www\BANG\member\htmlHead.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeCache.class.php"></a>
+<h1>ICodeCache.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class ICodeCache<br>
+<b>Warning on line 32</b> - File "C:\wamp\www\BANG\classes\ICodeCache.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeCart.class.php"></a>
+<h1>ICodeCart.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class ICodeCart<br>
+<b>Warning on line 192</b> - File "C:\wamp\www\BANG\classes\ICodeCart.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeCategory.class.php"></a>
+<h1>ICodeCategory.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class ICodeCategory<br>
+<b>Warning on line 94</b> - File "C:\wamp\www\BANG\classes\ICodeCategory.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeConfig.class.php"></a>
+<h1>ICodeConfig.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class ICodeConfig<br>
+<b>Warning on line 80</b> - File "C:\wamp\www\BANG\classes\ICodeConfig.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeDB.class.php"></a>
+<h1>ICodeDB.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class ICodeDB<br>
+<b>Warning on line 168</b> - File "C:\wamp\www\BANG\classes\ICodeDB.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeError.class.php"></a>
+<h1>ICodeError.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 5</b> - no @package tag was used in a DocBlock for class ICodeError<br>
+<b>Warning on line 48</b> - File "C:\wamp\www\BANG\classes\ICodeError.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeFile.class.php"></a>
+<h1>ICodeFile.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class ICodeFile<br>
+<b>Warning on line 172</b> - File "C:\wamp\www\BANG\classes\ICodeFile.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeFormValidation.class.php"></a>
+<h1>ICodeFormValidation.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class ICodeFormValidation<br>
+<b>Warning on line 133</b> - File "C:\wamp\www\BANG\classes\ICodeFormValidation.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeGraphics.class.php"></a>
+<h1>ICodeGraphics.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class ICodeGraphics<br>
+<b>Warning on line 118</b> - File "C:\wamp\www\BANG\classes\ICodeGraphics.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeMail.php"></a>
+<h1>ICodeMail.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 106</b> - File "C:\wamp\www\BANG\includes\ICodeMail.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeMailTemplate.class.php"></a>
+<h1>ICodeMailTemplate.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class ICodeMailTemplate<br>
+<b>Warning on line 86</b> - File "C:\wamp\www\BANG\classes\ICodeMailTemplate.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeNews.class.php"></a>
+<h1>ICodeNews.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class ICodeNews<br>
+<b>Warning on line 69</b> - File "C:\wamp\www\BANG\classes\ICodeNews.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeNewsLetter.class.php"></a>
+<h1>ICodeNewsLetter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class ICodeNewsLetter<br>
+<b>Warning on line 103</b> - File "C:\wamp\www\BANG\classes\ICodeNewsLetter.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodePaypal.class.php"></a>
+<h1>ICodePaypal.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class ICodePaypal<br>
+<b>Warning on line 259</b> - File "C:\wamp\www\BANG\classes\ICodePaypal.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeRenderer.class.php"></a>
+<h1>ICodeRenderer.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class ICodeRenderer<br>
+<b>Warning on line 29</b> - File "C:\wamp\www\BANG\classes\ICodeRenderer.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeRSS.class.php"></a>
+<h1>ICodeRSS.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class ICodeRSS<br>
+<b>Warning on line 70</b> - File "C:\wamp\www\BANG\classes\ICodeRSS.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeStatus.php"></a>
+<h1>ICodeStatus.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class ICodeStatus<br>
+<b>Warning on line 22</b> - File "C:\wamp\www\BANG\classes\ICodeStatus.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ICodeTools.class.php"></a>
+<h1>ICodeTools.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class ICodeTools<br>
+<b>Warning on line 438</b> - File "C:\wamp\www\BANG\classes\ICodeTools.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="index.php"></a>
+<h1>index.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 4</b> - File "C:\wamp\www\BANG\member\index.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 6</b> - File "C:\wamp\www\BANG\index.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="installer.php"></a>
+<h1>installer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 24</b> - File "C:\wamp\www\BANG\includes\installer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="invitation.php"></a>
+<h1>invitation.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 38</b> - File "C:\wamp\www\BANG\invitation.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="IPN.php"></a>
+<h1>IPN.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - File "C:\wamp\www\BANG\IPN.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="isRead.php"></a>
+<h1>isRead.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 10</b> - File "C:\wamp\www\BANG\isRead.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="Layout.class.php"></a>
+<h1>Layout.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Layout<br>
+<b>Warning on line 15</b> - File "C:\wamp\www\BANG\classes\Layout.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="library.php"></a>
+<h1>library.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 590</b> - File "C:\wamp\www\BANG\includes\library.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="login.php"></a>
+<h1>login.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 20</b> - File "C:\wamp\www\BANG\api\login.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 122</b> - File "C:\wamp\www\BANG\login.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="loginCredential.php"></a>
+<h1>loginCredential.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 84</b> - File "C:\wamp\www\BANG\forms\loginCredential.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="logout.php"></a>
+<h1>logout.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 4</b> - File "C:\wamp\www\BANG\logout.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="manageSite.php"></a>
+<h1>manageSite.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 41</b> - File "C:\wamp\www\BANG\forms\manageSite.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="memberIncludes.php"></a>
+<h1>memberIncludes.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 65</b> - File "C:\wamp\www\BANG\includes\memberIncludes.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="menuTimeout.php"></a>
+<h1>menuTimeout.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 68</b> - File "C:\wamp\www\BANG\forms\menuTimeout.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="mzLibrary.php"></a>
+<h1>mzLibrary.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 103</b> - File "C:\wamp\www\BANG\includes\mzLibrary.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="newNotification.php"></a>
+<h1>newNotification.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 201</b> - File "C:\wamp\www\BANG\forms\newNotification.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="noCacheHeader.php"></a>
+<h1>noCacheHeader.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 10</b> - File "C:\wamp\www\BANG\includes\noCacheHeader.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 10</b> - File "C:\wamp\www\BANG\serverIncludes\noCacheHeader.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 10</b> - File "C:\wamp\www\BANG\woohuuIncludes\noCacheHeader.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="notificationCron.php"></a>
+<h1>notificationCron.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 81</b> - File "C:\wamp\www\BANG\crons\notificationCron.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="notificationOperations.php"></a>
+<h1>notificationOperations.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 22</b> - File "C:\wamp\www\BANG\api\notificationOperations.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="notificationSearch.php"></a>
+<h1>notificationSearch.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 103</b> - File "C:\wamp\www\BANG\forms\notificationSearch.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="payForSite.php"></a>
+<h1>payForSite.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 77</b> - File "C:\wamp\www\BANG\forms\payForSite.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="Permission.class.php"></a>
+<h1>Permission.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Permission<br>
+<b>Warning on line 31</b> - File "C:\wamp\www\BANG\classes\Permission.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="phpinfo.php"></a>
+<h1>phpinfo.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - File "C:\wamp\www\BANG\phpinfo.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="propagate.php"></a>
+<h1>propagate.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - File "C:\wamp\www\BANG\testScripts\propagate.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="recaptchalib.php"></a>
+<h1>recaptchalib.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 136</b> - no @package tag was used in a DocBlock for class ReCaptchaResponse<br>
+<b>Warning on line 276</b> - File "C:\wamp\www\BANG\includes\recaptchalib.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="register.php"></a>
+<h1>register.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 85</b> - File "C:\wamp\www\BANG\register.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="registerAdministrator.php"></a>
+<h1>registerAdministrator.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 0</b> - File "C:\wamp\www\BANG\forms\registerAdministrator.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="registerDirector.php"></a>
+<h1>registerDirector.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 178</b> - File "C:\wamp\www\BANG\forms\registerDirector.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="registerSuperAdministrator.php"></a>
+<h1>registerSuperAdministrator.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 178</b> - File "C:\wamp\www\BANG\forms\registerSuperAdministrator.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="reinstate.php"></a>
+<h1>reinstate.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - File "C:\wamp\www\BANG\ajax\reinstate.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="reinstateForm.php"></a>
+<h1>reinstateForm.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 54</b> - File "C:\wamp\www\BANG\ajax\reinstateForm.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="reinstateOther.php"></a>
+<h1>reinstateOther.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 37</b> - File "C:\wamp\www\BANG\ajax\reinstateOther.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="session.php"></a>
+<h1>session.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 40</b> - File "C:\wamp\www\BANG\session.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="setPassword.php"></a>
+<h1>setPassword.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 128</b> - File "C:\wamp\www\BANG\setPassword.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="site.php"></a>
+<h1>site.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 10</b> - File "C:\wamp\www\BANG\ajax\site.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="siteEditForm.php"></a>
+<h1>siteEditForm.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 46</b> - File "C:\wamp\www\BANG\ajax\siteEditForm.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="siteHtml.php"></a>
+<h1>siteHtml.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 31</b> - File "C:\wamp\www\BANG\forms\siteHtml.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="siteManagement.php"></a>
+<h1>siteManagement.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 65</b> - File "C:\wamp\www\BANG\forms\siteManagement.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="SMS.class.php"></a>
+<h1>SMS.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class SMS<br>
+<b>Warning on line 277</b> - File "C:\wamp\www\BANG\classes\SMS.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="sms.php"></a>
+<h1>sms.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 23</b> - File "C:\wamp\www\BANG\testScripts\sms.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="subscriptionTest.php"></a>
+<h1>subscriptionTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - File "C:\wamp\www\BANG\testScripts\subscriptionTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="SuperAdministrator.class.php"></a>
+<h1>SuperAdministrator.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class SuperAdministrator<br>
+<b>Warning on line 158</b> - File "C:\wamp\www\BANG\classes\SuperAdministrator.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="SuperAdministrator.php"></a>
+<h1>SuperAdministrator.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - File "C:\wamp\www\BANG\member\classPages\SuperAdministrator.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="suspend.php"></a>
+<h1>suspend.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 20</b> - File "C:\wamp\www\BANG\ajax\suspend.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="suspendOther.php"></a>
+<h1>suspendOther.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 32</b> - File "C:\wamp\www\BANG\ajax\suspendOther.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="SystemController.class.php"></a>
+<h1>SystemController.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class SystemController<br>
+<b>Warning on line 103</b> - File "C:\wamp\www\BANG\classes\SystemController.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="timeoutManagement.js.php"></a>
+<h1>timeoutManagement.js.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 52</b> - File "C:\wamp\www\BANG\JS\timeoutManagement.js.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="User.class.php"></a>
+<h1>User.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class User<br>
+<b>Warning on line 750</b> - File "C:\wamp\www\BANG\classes\User.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="userConnection.php"></a>
+<h1>userConnection.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 4</b> - File "C:\wamp\www\BANG\includes\userConnection.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 26 Apr 2013 06:17:48 +0000 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.1</a>
+	</p>
+	</body>
+</html>

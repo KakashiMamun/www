@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class ICodeTools</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class ICodeTools</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_classes---ICodeTools.class.php.html">/classes/ICodeTools.class.php</a> (line <span class="field">2</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																				<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#ArrayFromQuery" title="details" class="method-name">ArrayFromQuery</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$query</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$addToGet</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#ArrayToJSON" title="details" class="method-name">ArrayToJSON</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#ArrayToSet" title="details" class="method-name">ArrayToSet</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#ArrayToXML" title="details" class="method-name">ArrayToXML</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#CurrentScriptName" title="details" class="method-name">CurrentScriptName</a>
+										()
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#DbInsert" title="details" class="method-name">DbInsert</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$tableName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$data</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#DebugMessage" title="details" class="method-name">DebugMessage</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$msg</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#GetArrayFromToken" title="details" class="method-name">GetArrayFromToken</a>
+										()
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#GetFileExtension" title="details" class="method-name">GetFileExtension</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$str</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#GetIsReadLink" title="details" class="method-name">GetIsReadLink</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$query</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#GetPageNo" title="details" class="method-name">GetPageNo</a>
+										()
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#GetPaginationStart" title="details" class="method-name">GetPaginationStart</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$pageNo</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$limit</span> = <span class="var-default">10</span>])
+									</div>
+																								<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#GetRawValue" title="details" class="method-name">GetRawValue</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$fieldName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$alternate</span> = <span class="var-default">'none'</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#GetTableStatus" title="details" class="method-name">GetTableStatus</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$tableName</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#GetValue" title="details" class="method-name">GetValue</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$fieldName</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#ICodeEval" title="details" class="method-name">ICodeEval</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$code</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#ICodeMail" title="details" class="method-name">ICodeMail</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$emailaddress</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$fromaddress</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$emailsubject</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$body</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$fromName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$attachments</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#IfChecked" title="details" class="method-name">IfChecked</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$fieldName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$value</span> = <span class="var-default">''</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#IfCurrentLink" title="details" class="method-name">IfCurrentLink</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$linkSlug</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$echoClass</span> = <span class="var-default">''</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#IfCurrentPage" title="details" class="method-name">IfCurrentPage</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$linkSlug</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$echoClass</span> = <span class="var-default">''</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#IfSelected" title="details" class="method-name">IfSelected</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$fieldName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#IsInObject" title="details" class="method-name">IsInObject</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$val</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$obj</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#IsInserted" title="details" class="method-name">IsInserted</a>
+										()
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#IsUpdated" title="details" class="method-name">IsUpdated</a>
+										()
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#isValidURL" title="details" class="method-name">isValidURL</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$url</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#parse_mysql_dump" title="details" class="method-name">parse_mysql_dump</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$url</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#QuoteArrayElements" title="details" class="method-name">QuoteArrayElements</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">&$item</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$key</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#ReturnError" title="details" class="method-name">ReturnError</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$errArr</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#ShowErrors" title="details" class="method-name">ShowErrors</a>
+										()
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#StringToToken" title="details" class="method-name">StringToToken</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$string</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#SubtractDate" title="details" class="method-name">SubtractDate</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$first</span> = <span class="var-default">'now'</span>], <span class="var-type"></span>&nbsp;<span class="var-name">$second</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$addToSecond</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$type</span> = <span class="var-default">'second'</span>])
+									</div>
+								
+												<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#AdminNotice" title="details" class="method-name">AdminNotice</a>
+										()
+									</div>
+																																																																																																																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#GetPaging" title="details" class="method-name">GetPaging</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$numItems</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$perPage</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$curPage</span> = <span class="var-default">1</span>], <span class="var-type"></span>&nbsp;<span class="var-name">$url</span>)
+									</div>
+																																																																																																																																																																</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodArrayFromQuery" id="ArrayFromQuery"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method ArrayFromQuery</span> (line <span class="line-number">363</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			ArrayFromQuery
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$query</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$addToGet</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$query</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$addToGet</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodArrayToJSON" id="ArrayToJSON"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method ArrayToJSON</span> (line <span class="line-number">350</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			ArrayToJSON
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$array</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodArrayToSet" id="ArrayToSet"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method ArrayToSet</span> (line <span class="line-number">388</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			ArrayToSet
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$array</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodArrayToXML" id="ArrayToXML"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method ArrayToXML</span> (line <span class="line-number">413</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			ArrayToXML
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$array</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodCurrentScriptName" id="CurrentScriptName"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method CurrentScriptName</span> (line <span class="line-number">312</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			CurrentScriptName
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodDbInsert" id="DbInsert"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method DbInsert</span> (line <span class="line-number">167</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			DbInsert
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$tableName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$data</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$tableName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$data</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodDebugMessage" id="DebugMessage"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method DebugMessage</span> (line <span class="line-number">402</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			DebugMessage
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$msg</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$msg</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodGetArrayFromToken" id="GetArrayFromToken"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method GetArrayFromToken</span> (line <span class="line-number">376</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			GetArrayFromToken
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodGetFileExtension" id="GetFileExtension"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method GetFileExtension</span> (line <span class="line-number">392</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			GetFileExtension
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$str</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$str</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodGetIsReadLink" id="GetIsReadLink"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method GetIsReadLink</span> (line <span class="line-number">354</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			GetIsReadLink
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$query</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$query</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodGetPageNo" id="GetPageNo"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method GetPageNo</span> (line <span class="line-number">423</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			GetPageNo
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodGetPaginationStart" id="GetPaginationStart"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method GetPaginationStart</span> (line <span class="line-number">431</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			GetPaginationStart
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$pageNo</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$limit</span> = <span class="var-default">10</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$pageNo</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$limit</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodGetRawValue" id="GetRawValue"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method GetRawValue</span> (line <span class="line-number">207</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			GetRawValue
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$fieldName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$alternate</span> = <span class="var-default">'none'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$fieldName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$alternate</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodGetTableStatus" id="GetTableStatus"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method GetTableStatus</span> (line <span class="line-number">197</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			GetTableStatus
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$tableName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$tableName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodGetValue" id="GetValue"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method GetValue</span> (line <span class="line-number">219</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			GetValue
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$fieldName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$fieldName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodICodeEval" id="ICodeEval"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method ICodeEval</span> (line <span class="line-number">307</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			ICodeEval
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$code</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$code</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodICodeMail" id="ICodeMail"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method ICodeMail</span> (line <span class="line-number">34</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			ICodeMail
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$emailaddress</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$fromaddress</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$emailsubject</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$body</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$fromName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$attachments</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$emailaddress</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$fromaddress</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$emailsubject</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$body</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$fromName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$attachments</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodIfChecked" id="IfChecked"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method IfChecked</span> (line <span class="line-number">227</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			IfChecked
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$fieldName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$value</span> = <span class="var-default">''</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$fieldName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$value</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodIfCurrentLink" id="IfCurrentLink"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method IfCurrentLink</span> (line <span class="line-number">264</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			IfCurrentLink
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$linkSlug</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$echoClass</span> = <span class="var-default">''</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$linkSlug</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$echoClass</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodIfCurrentPage" id="IfCurrentPage"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method IfCurrentPage</span> (line <span class="line-number">277</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			IfCurrentPage
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$linkSlug</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$echoClass</span> = <span class="var-default">''</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$linkSlug</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$echoClass</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodIfSelected" id="IfSelected"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method IfSelected</span> (line <span class="line-number">246</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			IfSelected
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$fieldName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$fieldName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$value</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodIsInObject" id="IsInObject"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method IsInObject</span> (line <span class="line-number">317</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			IsInObject
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$val</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$obj</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$val</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$obj</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodIsInserted" id="IsInserted"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method IsInserted</span> (line <span class="line-number">136</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			IsInserted
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodIsUpdated" id="IsUpdated"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method IsUpdated</span> (line <span class="line-number">147</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			IsUpdated
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisValidURL" id="isValidURL"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method isValidURL</span> (line <span class="line-number">162</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isValidURL
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$url</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$url</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodparse_mysql_dump" id="parse_mysql_dump"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method parse_mysql_dump</span> (line <span class="line-number">4</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			parse_mysql_dump
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$url</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$url</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodQuoteArrayElements" id="QuoteArrayElements"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method QuoteArrayElements</span> (line <span class="line-number">157</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			QuoteArrayElements
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$item</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$key</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$item</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$key</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodReturnError" id="ReturnError"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method ReturnError</span> (line <span class="line-number">407</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			ReturnError
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$errArr</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$errArr</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodShowErrors" id="ShowErrors"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method ShowErrors</span> (line <span class="line-number">188</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			ShowErrors
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodStringToToken" id="StringToToken"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method StringToToken</span> (line <span class="line-number">383</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			StringToToken
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$string</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$string</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSubtractDate" id="SubtractDate"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method SubtractDate</span> (line <span class="line-number">293</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SubtractDate
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$first</span> = <span class="var-default">'now'</span>], <span class="var-type"></span>&nbsp;<span class="var-name">$second</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$addToSecond</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$type</span> = <span class="var-default">'second'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$first</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$second</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$addToSecond</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$type</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+<a name="methodAdminNotice" id="AdminNotice"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">AdminNotice</span> (line <span class="line-number">117</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			AdminNotice
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodGetPaging" id="GetPaging"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">GetPaging</span> (line <span class="line-number">122</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			GetPaging
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$numItems</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$perPage</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$curPage</span> = <span class="var-default">1</span>], <span class="var-type"></span>&nbsp;<span class="var-name">$url</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$numItems</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$perPage</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$curPage</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$url</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 26 Apr 2013 06:17:32 +0000 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.1</a>
+	</p>
+	</div></body>
+</html>

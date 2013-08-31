@@ -1,0 +1,31 @@
+request format:
+convert all the data in base64
+<request>
+    <operation>
+        login
+    </operation>
+    <login>
+        <email>ceo@icodebd.com
+        </email>
+        <password>testy
+        </password>
+    </login>
+</request>
+
+response
+
+errorCode=0 when there is a valid authKey. Otherwise you will get an empty authKey
+<response>  
+    <operation>
+        login
+    </operation>
+    <login>
+        <errorCode>
+        </errorCode>
+        <authKey>
+        </authKey>
+    </login>
+</response>
+
+
+

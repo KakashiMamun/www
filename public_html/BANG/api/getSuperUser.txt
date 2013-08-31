@@ -1,0 +1,34 @@
+request:
+
+<request>
+    <operation>
+        getSuperUsers
+    </operation>       
+    <authKey>
+    </authKey>
+    <getSuperUsers>          
+        <start>
+        </start>
+        <limit>
+        </limit>        
+    </getSuperUsers>
+</request>
+
+Response:
+
+<response>
+    <operation>
+        getSuperUsers
+    </operation>     
+    <getSuperUsers>
+        <total>
+        </total>
+        <items>           
+            <superUser>             
+                <superUserId>
+                </superUserId>
+            </superUser>              
+        </items>
+    </getSuperUsers>
+</reponse>
+

@@ -1,0 +1,21 @@
+<?php
+    require_once('../includes/frontIncludes.php');
+    //$requestXml=$_POST['request'];
+/*
+        $_POST['xml']=
+                          "
+                          <request>
+                              <operation>
+                                  login
+                              </operation>
+                              <login>
+                                  <email>abdul@kalam.com
+                                  </email>
+                                  <password>test
+                                  </password>
+                              </login>
+                          </request>";
+*/
+    SitecomsAPI::ProcessRequest();
+
+?>

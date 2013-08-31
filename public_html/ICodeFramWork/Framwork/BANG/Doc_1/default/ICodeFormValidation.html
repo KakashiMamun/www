@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class ICodeFormValidation</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class ICodeFormValidation</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_classes---ICodeFormValidation.class.php.html">/classes/ICodeFormValidation.class.php</a> (line <span class="field">2</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+												<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#AddSafeSlashesDeep" title="details" class="method-name">AddSafeSlashesDeep</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#DecodeBase64" title="details" class="method-name">DecodeBase64</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$var</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#EncodeBase64" title="details" class="method-name">EncodeBase64</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$var</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#IsAlphaNumeric" title="details" class="method-name">IsAlphaNumeric</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$str</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#IsEmail" title="details" class="method-name">IsEmail</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$email</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#IsPassword" title="details" class="method-name">IsPassword</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$password</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#ProcessFormData" title="details" class="method-name">ProcessFormData</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#SizeCheck" title="details" class="method-name">SizeCheck</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$str</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$min</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$max</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#StripSlashesDeep" title="details" class="method-name">StripSlashesDeep</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#TrimAll" title="details" class="method-name">TrimAll</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$test</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#TrimDeep" title="details" class="method-name">TrimDeep</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$var</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#UsernameCheck" title="details" class="method-name">UsernameCheck</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$username</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#ValidateNonEmpty" title="details" class="method-name">ValidateNonEmpty</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>)
+									</div>
+								
+																																																																																																												</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodAddSafeSlashesDeep" id="AddSafeSlashesDeep"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method AddSafeSlashesDeep</span> (line <span class="line-number">47</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			AddSafeSlashesDeep
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$array</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodDecodeBase64" id="DecodeBase64"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method DecodeBase64</span> (line <span class="line-number">4</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			DecodeBase64
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$var</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$var</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodEncodeBase64" id="EncodeBase64"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method EncodeBase64</span> (line <span class="line-number">16</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			EncodeBase64
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$var</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$var</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodIsAlphaNumeric" id="IsAlphaNumeric"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method IsAlphaNumeric</span> (line <span class="line-number">115</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			IsAlphaNumeric
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$str</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$str</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodIsEmail" id="IsEmail"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method IsEmail</span> (line <span class="line-number">94</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			IsEmail
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$email</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$email</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodIsPassword" id="IsPassword"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method IsPassword</span> (line <span class="line-number">101</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			IsPassword
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$password</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$password</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodProcessFormData" id="ProcessFormData"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method ProcessFormData</span> (line <span class="line-number">65</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			ProcessFormData
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$array</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSizeCheck" id="SizeCheck"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method SizeCheck</span> (line <span class="line-number">86</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SizeCheck
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$str</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$min</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$max</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$str</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$min</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$max</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodStripSlashesDeep" id="StripSlashesDeep"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method StripSlashesDeep</span> (line <span class="line-number">71</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			StripSlashesDeep
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$array</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodTrimAll" id="TrimAll"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method TrimAll</span> (line <span class="line-number">42</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			TrimAll
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$test</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$test</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodTrimDeep" id="TrimDeep"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method TrimDeep</span> (line <span class="line-number">28</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			TrimDeep
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$var</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$var</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodUsernameCheck" id="UsernameCheck"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method UsernameCheck</span> (line <span class="line-number">109</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			UsernameCheck
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$username</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$username</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodValidateNonEmpty" id="ValidateNonEmpty"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method ValidateNonEmpty</span> (line <span class="line-number">121</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			ValidateNonEmpty
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$array</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 26 Apr 2013 06:17:26 +0000 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.1</a>
+	</p>
+	</div></body>
+</html>

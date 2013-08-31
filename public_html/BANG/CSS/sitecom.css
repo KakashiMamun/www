@@ -1,0 +1,270 @@
+.ui-autocomplete
+{
+}
+body
+{
+    text-align:left;
+}
+#top
+{
+    background:url('../images/topBack.png') repeat-x;
+}
+.sitecomPadder
+{
+    padding-left:136px;
+}
+#breadCrumb
+{
+    background:#d8d8d8;
+    margin-top: 1px;
+    padding-top:8px;
+    padding-bottom:8px;
+}    
+#breadCrumb *
+{
+    color:#666666;
+}
+#status
+{     
+    background:url('../images/statusBack.png') repeat-x;
+    text-align:center;
+
+}       
+#status *
+{     
+    vertical-align:middle;
+    color:#ffffff;
+}
+#contentArea
+{    
+    background:url('../images/contentBack.png') repeat-x;
+    background-position: 0 0;
+    padding-bottom:100px;
+}
+#content
+{
+    width:80%;
+}
+#content p
+{
+    margin-top:20px;
+}
+.subHead 
+{
+}
+.subHead *
+{  
+    vertical-align:middle;
+}
+.subHead span
+{
+    display:inline-block;
+}
+.subHeadLeft
+{
+    width:79%;
+}     
+.subHeadLeft div
+{   
+    /*padding-left:20px;*/   
+    font-size: 1.8em;
+    font-weight:bold;
+    color:#393939;  
+    padding:20px 0px 10px 0px;
+}
+.subHeadRight
+{
+    width:20%;
+    text-align:right;
+}
+
+/* tables */
+.backTable
+{
+    border-left:2px solid #aaaaaa;
+    border-top:2px solid #aaaaaa;
+    border-right:1px solid #aaaaaa;
+    border-bottom:1px solid #aaaaaa;
+    text-align:left;
+    background:#ffffff;
+    margin: 20px 0px;
+
+}
+.backTable td, .backTable th
+{
+    padding: 5px 20px;
+    border-right:1px solid #aaaaaa;
+    border-bottom:1px solid #aaaaaa;
+}
+.backTable th
+{
+    background:#454545;
+    color:#eeeeee;
+}
+.evenRow td
+{
+    background:#eaeaea;
+}
+.highlight td
+{   
+    background:#BEF1B8;
+}      
+.userList
+{
+    border-left:1px solid #aaaaaa;
+    border-top:1px solid #aaaaaa;
+    border-right:1px solid #aaaaaa;
+    border-bottom:1px solid #aaaaaa;
+    text-align:left;
+    background:#ffffff;
+    margin: 20px 0px 0px 0px;
+
+}  
+.userList td, .userList th
+{
+    padding: 5px 20px;
+}
+/* footer */
+#footerArea
+{        
+    background:url('../images/footerBack.png') repeat-x;
+    position:absolute;
+    z-index:1000;
+    width:100%;
+}     
+#footerArea *
+{        
+    vertical-align:middle;   
+    color:#cccccc;
+}    
+.footer 
+{
+    width:80%;
+}
+.footer  span
+{
+    display:inline-block;
+}
+.footerLeft
+{
+    width:49%;
+    font-size: 1.5em;
+    font-weight:bold;
+}     
+.footerLeft div
+{   
+    padding-left:20px;
+}
+.footerRight
+{
+    width:50%;
+    text-align:right;
+}
+#currentUserInfo
+{
+    color:#aaaaaa;
+}
+
+/* forms */
+
+.smartForm *
+{
+}
+.smartForm span
+{
+    display:inline-block;
+    width:180px;
+}
+
+.smartForm input
+{
+    width:160px;
+    display:block;
+}
+.smartForm *
+{
+  vertical-align:bottom;
+}
+#lookUpForm span
+{      
+    display:inline-block;
+    width:12em;
+}
+.form
+{
+    background:#ffffff;
+    border:2px solid #aaaaaa;
+}
+.dialogForm
+{            
+    width:99%;
+}
+.dialogForm *
+{
+}                          
+.formHead
+{
+    background:#626262;
+    padding:8px 15px;
+    background:#454545;
+    color:#ffffff !important;
+    font-size:1.2em;
+}     
+.formHead a
+{
+    color:#ffffff !important;
+    font-size:1em;
+}     
+.profile *
+{          
+    font-size:13px;
+    vertical-align:middle;
+}
+.profile td
+{
+    padding:3px 5px;
+
+}
+.notificationDetails *
+{          
+    font-size:13px;
+    vertical-align:top;
+}
+.notificationDetails td
+{
+    padding:3px 5px;
+
+}
+.form input, .profile select
+{
+    width:200px;
+
+}
+.ui-dialog-title
+{                    
+    display:none;
+}
+.fileLink
+{
+    color:red !important;
+}
+
+.dialogOperations
+{
+    margin-top:20px;
+}                                      
+.dialogOperations a
+{
+    display:inline-block;
+    border:1px solid #aaaaaa;
+    padding:3px 5px;
+    color:#0066ff !important;
+    font-weight: bold;
+    margin-right:5px;
+}
+.dialogOperations a:hover
+{
+    background:#0066ff;
+    color:#ffffff !important;
+    text-decoration:none;
+}
