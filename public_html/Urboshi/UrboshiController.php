@@ -35,12 +35,13 @@ function createNewArticle($title,
 
     $categoryInfo = UrboshiCategory::getCategoriesInfo($categories);
 
-    print_r($categoryInfo);
+    $result = UrboshiArticle::createNewArticle($title,$content,$meta_tags,$meta_description,$meta_image,$authorsInfo,$tags,$uploader_id,$categoryInfo);
 
+    print_r($result);
 }
 
 
 
 
-createNewArticle('a','Ki ar lekhbo!!', 'baaler tags','baal er desc','chaat er image amr',7,array('Porn', 'orgy', 'group'),420,array(3,4,5,6));
+//createNewArticle('b','Ki ar lekhbo!!', 'baaler tags','baal er desc','chaat er image amr',7,array('Porn', 'orgy', 'group'),420,array(3,4,5,6));
 

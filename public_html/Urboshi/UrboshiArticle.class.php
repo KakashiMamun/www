@@ -22,10 +22,6 @@ class UrboshiArticle {
                                             $uploader_id,
                                             $categories = array()
     ){
-
-
-
-
         $DB = 'Urboshi';
         $Collection = 'Articles';
         $ID = UrboshiArticle::GetNextArticleID();
@@ -45,8 +41,6 @@ class UrboshiArticle {
         );
 
         $result  = ICodeMongoDB::Insert($article,$DB,$Collection);
-
-
         return $result;
         }
 
@@ -64,8 +58,8 @@ class UrboshiArticle {
                 echo 'Error in Next article ID generation';
             }
 
+            return false;
         }
-
 
     public static function getArticles($ID = null){
 
