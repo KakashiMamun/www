@@ -38,7 +38,7 @@ public static function createNewArticle($title,
         'content' => $content,
         'meta_tags'=> $meta_tags,
         'meta_description'=> $meta_description,
-        'meta_iamge' => $meta_image,
+        'meta_image' => $meta_image,
         'author' => $author,
         'tags' => $tags,
         'uploader_id'=> $uploader_id
@@ -77,8 +77,28 @@ public static function getArticles($ID = null){
     else
         $result = ICodeMongoDB::FetchAsCursor(array(),array(), $DB, $Collection);
 
-    print_r(iterator_to_array($result));
+    return iterator_to_array($result);
 
 }
 
+    public static function getID($title){
+
+        $DB = 'Urboshi';
+        $Collection = 'Articles';
+
+            $result = ICodeMongoDB::FetchAsCursor(array( 'title' => $title),array('id'), $DB, $Collection);
+
+        return iterator_to_array($result);
+    }
+
+    public static function getArticlesV2($query,$fields){
+
+        $DB = 'Urboshi';
+        $Collection = 'Articles';
+
+        $result = ICodeMongoDB::FetchAsCursor($query,$fields, $DB, $Collection);
+
+        return iterator_to_array($result);
+
+    }
 }

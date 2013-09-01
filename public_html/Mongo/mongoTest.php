@@ -34,4 +34,8 @@ require_once('UrboshiArticle.class.php');
 
 //UrboshiArticle::createNewArticle('b','abcdd',['a', 'b', 'c'],'zxccv','root/a.img',['name'=>'kuddus', 'id'=>'a'],['a', 't', 'p'],12,['name'=> 'ajaira','id'=>2]);
 
-UrboshiArticle::getArticles();
+//var_dump(UrboshiArticle::getArticles());
+
+//print_r(UrboshiArticle::getID('a'));
+
+print_r(UrboshiArticle::getArticlesV2(array(),array('title', 'tags', 'uploader_id','meta_image')));
