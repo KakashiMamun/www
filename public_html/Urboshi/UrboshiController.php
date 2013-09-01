@@ -95,6 +95,11 @@ function getArticleByTitle($title){
 
 }
 
+function getArticles(){
+    $result = UrboshiArticle::getArticles($ID);
+    print_r($result);
+}
+
 function deleteArticleByID($ID){
 
     $result = UrboshiArticle::deleteArticle(array('id' => $ID));
@@ -104,8 +109,12 @@ function deleteArticleByID($ID){
     }
 //    print_r($result);
 }
+
+//createNewCategory('New Category');
+//createNewAuthor('NewAuthor');
 //createNewArticle('A title','Ki ar lekhbo!!', 'baaler tags','baal er desc','chaat er image amr',4,array('Food', 'Cooking', 'Western'),420,array(3,5));
 //updateArticle(2,'An Updated title','Update korlam!!', 'baaler tags2','baal er desc2','chaat er image amr2',array('Food', 'Cooking'),401);
 //getArticleByID(2);
 //getArticleByTitle('An Updated title');
+//getArticles()
 //deleteArticleByID(6);
