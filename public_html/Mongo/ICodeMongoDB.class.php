@@ -271,6 +271,10 @@ class ICodeMongoDB {
     }
 
 
+    /*
+     * Execute DB commands
+     */
+
     public static function  Execute($command,$DB){
 
 
