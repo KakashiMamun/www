@@ -26,24 +26,10 @@ require_once('ICodeMongoDB.class.php');
 //ICodeMongoDB::CountDocument('demo','articles');
 //print_r(ICodeMongoDB::Insert(array('_id'=>3, 'name' => 'Jhon', 'age' => 21),'test','test'));
 //print_r(ICodeMongoDB::FetchAsArray(array('elephpants.year' => array( '$gte' => 3000 ) ),'demo', 'circus'));
-?>
-<?php
-$m = new Mongo;
-$c = $m->demo->elephpants;
-$c->drop();
-function birthDay( $c, $name ){
-    $c->update(
-        array( 'name' => $name ),
-//
-        array( '$inc' => array( 'age' => 1 ) ),
-//
-        array( 'upsert' => true )
-//
-    );
-    var_dump( $c->findOne( array( 'name' => 'Santon') ) );
 
-}
+$command  = 'db.eval("getNextSequence(\'next_author_no\')")';
 
-birthDay( $c, 'Santon' );
-birthDay( $c, 'Santon' );
-?>
+$record = ICodeMongoDB::Execute($command, 'Urboshi');
+
+
+print_r($record);

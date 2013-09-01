@@ -271,4 +271,20 @@ class ICodeMongoDB {
     }
 
 
+    public static function  Execute($command,$DB){
+
+
+        $con = MongoConfig::GetNewConnection();
+
+        $db = ICodeMongoDB::selectDatabasse($con,$DB);
+
+        $record = $db->execute($command);
+
+        return $record;
+
+
+}
+
+
+
 }
