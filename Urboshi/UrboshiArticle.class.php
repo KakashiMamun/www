@@ -8,7 +8,7 @@
  */
 
 
-require_once('ICodeMongoDB.class.php');
+require_once('MongoDB/ICodeMongoDB.class.php');
 
 class UrboshiArticle {
 

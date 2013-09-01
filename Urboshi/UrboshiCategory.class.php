@@ -7,9 +7,9 @@
  * To change this template use File | Settings | File Templates.
  */
 
+require_once('MongoDB/ICodeMongoDB.class.php');
+
 class UrboshiCategory {
-
-
 
     public static function GetNextCategoryID(){
 
