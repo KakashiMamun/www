@@ -108,6 +108,35 @@ class UrboshiAuthor {
 
     }
 
+    public static function getAuthorsInfo($authors){
+
+    $i = 0;
+    if(is_array($authors)){
+        foreach($authors as $author){
+            $authorInfo = UrboshiAuthor::getAuthors($author);
+
+            foreach($authorInfo as $authorObj){
+                $authorList[$i]['id'] = $authorObj['id'];
+                $authorList[$i]['name'] = $authorObj['name'];
+            }
+
+            $i++;
+        }
+    }else{
+        $authorInfo = UrboshiAuthor::getAuthors($authors);
+
+        foreach($authorInfo as $authorObj){
+            $authorList[$i]['id'] = $authorObj['id'];
+            $authorList[$i]['name'] = $authorObj['name'];
+        }
+    }
+
+    if(isset($authorList))
+        return ($authorList);
+    else
+        echo 'No such author';
+}
+
 
 
 }

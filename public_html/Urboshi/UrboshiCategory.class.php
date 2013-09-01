@@ -129,4 +129,35 @@ class UrboshiCategory {
 
     }
 
+    public static function getCategoriesInfo($categoryIds){
+
+        $i = 0;
+        if(is_array($categoryIds)){
+            foreach($categoryIds as $category){
+                $categoryInfo = UrboshiCategory::getCategories($category);
+
+                foreach($categoryInfo as $categoryObj){
+                    $categoryList[$i]['id'] = $categoryObj['id'];
+                    $categoryList[$i]['name'] = $categoryObj['name'];
+                }
+
+                $i++;
+            }
+        }else{
+            $categoryInfo = UrboshiCategory::getCategories($categoryIds);
+
+            foreach($categoryInfo as $categoryObj){
+                $categoryList[$i]['id'] = $categoryObj['id'];
+                $categoryList[$i]['name'] = $categoryObj['name'];
+            }
+
+        }
+
+        if(isset($categoryList))
+            return ($categoryList);
+        else
+            echo 'No such Category';
+    }
+
+
 }

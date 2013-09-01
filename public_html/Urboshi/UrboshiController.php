@@ -31,40 +31,16 @@ function createNewArticle($title,
 
 
 
+    $authorsInfo = (UrboshiAuthor::getAuthorsInfo($authors));
 
+    $categoryInfo = UrboshiCategory::getCategoriesInfo($categories);
+
+    print_r($categoryInfo);
 
 }
 
 
-function getAuthorInfo($authors){
-
-    $i = 0;
-    if(is_array($authors)){
-        foreach($authors as $author){
-            $authorInfo = UrboshiAuthor::getAuthors($author);
-
-            foreach($authorInfo as $authorObj){
-                $authorList[$i]['id'] = $authorObj['id'];
-                $authorList[$i]['name'] = $authorObj['name'];
-            }
-
-            $i++;
-        }
-    }else{
-        $authorInfo = UrboshiAuthor::getAuthors($authors);
-
-        foreach($authorInfo as $authorObj){
-            $authorList[$i]['id'] = $authorObj['id'];
-            $authorList[$i]['name'] = $authorObj['name'];
-        }
-    }
-
-    if(isset($authorList))
-        return ($authorList);
-    else
-        echo 'No such author';
-}
 
 
-//createNewArticle('a','Ki ar lekhbo!!', 'baaler tags','baal er desc','chaat er image amr',4,array('Porn', 'orgy', 'group'),420,5);
+createNewArticle('a','Ki ar lekhbo!!', 'baaler tags','baal er desc','chaat er image amr',7,array('Porn', 'orgy', 'group'),420,array(3,4,5,6));
 
