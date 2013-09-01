@@ -102,7 +102,7 @@ class UrboshiCategory {
         $DB = 'Urboshi';
         $Collection = 'Categories';
 
-        $result = ICodeMongoDB::UpdateWithCriteria($query,array('$addToSet' => array('articels' => array('$each'=> $articles))),$options,$DB,$Collection);
+        $result = ICodeMongoDB::UpdateWithCriteria($query,array('$addToSet' => array('articles' =>  $articles)),$options,$DB,$Collection);
 
     }
 

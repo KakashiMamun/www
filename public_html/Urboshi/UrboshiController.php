@@ -37,11 +37,27 @@ function createNewArticle($title,
 
     $result = UrboshiArticle::createNewArticle($title,$content,$meta_tags,$meta_description,$meta_image,$authorsInfo,$tags,$uploader_id,$categoryInfo);
 
-    print_r($result);
+//    print_r($result);
+
+    if(isset($result['ok']))
+    {
+        foreach($categoryInfo as $category){
+            $ID = UrboshiArticle::getID($title);
+            UrboshiCategory::addArticles($category,array('id' => $ID,'title' => $title));
+        }
+    }else{
+
+        echo 'Article Insertion Error';
+    }
+}
+
+
+function addCategoryToArticleBy($ID){
+
+
 }
 
 
 
-
-//createNewArticle('b','Ki ar lekhbo!!', 'baaler tags','baal er desc','chaat er image amr',7,array('Porn', 'orgy', 'group'),420,array(3,4,5,6));
+//createNewArticle('A title','Ki ar lekhbo!!', 'baaler tags','baal er desc','chaat er image amr',4,array('Food', 'Cooking', 'Western'),420,array(3,5,6));
 

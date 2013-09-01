@@ -82,7 +82,11 @@ class UrboshiArticle {
 
             $result = ICodeMongoDB::FetchAsCursor(array( 'title' => $title),array('id'), $DB, $Collection);
 
-        return iterator_to_array($result);
+         $results = iterator_to_array($result);
+
+        foreach($results as $result)
+            return $result['id'];
+
     }
 
     public static function getArticlesV2($query,$fields){
