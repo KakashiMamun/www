@@ -27,7 +27,6 @@ class UrboshiArticle {
         $ID = UrboshiArticle::GetNextArticleID();
 
         $article = array(
-
             'id' => $ID,
             'categories'=> $categories,
             'title' => $title,
@@ -107,6 +106,18 @@ class UrboshiArticle {
 
 
         $result = ICodeMongoDB::Update($query,$fieldsToUpdate,$options=array(),$DB,$Collection);
+
+
+        return ($result);
+    }
+
+    public static function updateArticleV2($query,$criteria,$options){
+
+        $DB = 'Urboshi';
+        $Collection = 'Articles';
+
+
+        $result = ICodeMongoDB::UpdateWithCriteria($query,$criteria,$options=array(),$DB,$Collection);
 
 
         return ($result);

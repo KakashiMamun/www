@@ -107,12 +107,12 @@ class UrboshiCategory {
     }
 
 
-    public static function removeArticles($query, $articles, $options=array()){
+    public static function removeArticles($query, $articleID, $options=array()){
 
         $DB = 'Urboshi';
         $Collection = 'Categories';
 
-        $result = ICodeMongoDB::UpdateWithCriteria($query,array('$popAll' => array('articles'=> $articles)),$options,$DB,$Collection);
+        $result = ICodeMongoDB::UpdateWithCriteria($query,array('$pull' => array('articles'=> array('id'=>$articleID))),$options,$DB,$Collection);
 
     }
 
