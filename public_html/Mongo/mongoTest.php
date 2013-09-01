@@ -38,4 +38,4 @@ require_once('UrboshiArticle.class.php');
 
 //print_r(UrboshiArticle::getID('a'));
 
-print_r(UrboshiArticle::getArticlesV2(array(),array('title', 'tags', 'uploader_id','meta_image')));
+//print_r(UrboshiArticle::getArticlesV2(array(),array('title', 'tags', 'uploader_id','meta_image')));

@@ -66,7 +66,6 @@ public static function GetNextArticleID(){
     }
 
 
-
 public static function getArticles($ID = null){
 
     $DB = 'Urboshi';
@@ -81,24 +80,24 @@ public static function getArticles($ID = null){
 
 }
 
-    public static function getID($title){
+public static function getID($title){
 
-        $DB = 'Urboshi';
-        $Collection = 'Articles';
+    $DB = 'Urboshi';
+    $Collection = 'Articles';
 
-            $result = ICodeMongoDB::FetchAsCursor(array( 'title' => $title),array('id'), $DB, $Collection);
+        $result = ICodeMongoDB::FetchAsCursor(array( 'title' => $title),array('id'), $DB, $Collection);
 
-        return iterator_to_array($result);
-    }
+    return iterator_to_array($result);
+}
 
-    public static function getArticlesV2($query,$fields){
+public static function getArticlesV2($query,$fields){
 
-        $DB = 'Urboshi';
-        $Collection = 'Articles';
+    $DB = 'Urboshi';
+    $Collection = 'Articles';
 
-        $result = ICodeMongoDB::FetchAsCursor($query,$fields, $DB, $Collection);
+    $result = ICodeMongoDB::FetchAsCursor($query,$fields, $DB, $Collection);
 
-        return iterator_to_array($result);
+    return iterator_to_array($result);
 
-    }
+}
 }
