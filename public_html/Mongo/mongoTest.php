@@ -20,16 +20,18 @@
 //$cursor = $c->find();
 
 
-require_once('ICodeMongoDB.class.php');
+//require_once('ICodeMongoDB.class.php');
+
 
 
 //ICodeMongoDB::CountDocument('demo','articles');
 //print_r(ICodeMongoDB::Insert(array('_id'=>3, 'name' => 'Jhon', 'age' => 21),'test','test'));
 //print_r(ICodeMongoDB::FetchAsArray(array('elephpants.year' => array( '$gte' => 3000 ) ),'demo', 'circus'));
 
-$command  = 'db.eval("getNextSequence(\'next_author_no\')")';
 
-$record = ICodeMongoDB::Execute($command, 'Urboshi');
+require_once('UrboshiArticle.class.php');
 
 
-print_r($record);
+//UrboshiArticle::createNewArticle('b','abcdd',['a', 'b', 'c'],'zxccv','root/a.img',['name'=>'kuddus', 'id'=>'a'],['a', 't', 'p'],12,['name'=> 'ajaira','id'=>2]);
+
+UrboshiArticle::getArticles();

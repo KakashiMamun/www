@@ -44,10 +44,12 @@ public static function createNewArticle($title,
         'uploader_id'=> $uploader_id
     );
 
-    ICodeMongoDB::Insert($article,)
+    $result  = ICodeMongoDB::Insert($article,$DB,$Collection);
+
+    print_r($result);
     }
 
-    public static function GetNextArticleID(){
+public static function GetNextArticleID(){
 
         $command  = 'db.eval("getNextSequence(\'next_article_no\')")';
 
@@ -62,4 +64,21 @@ public static function createNewArticle($title,
         }
 
     }
+
+
+
+public static function getArticles($ID = null){
+
+    $DB = 'Urboshi';
+    $Collection = 'Articles';
+
+    if(isset($ID))
+        $result = ICodeMongoDB::FetchAsCursor(array('id' => $ID),array(), $DB, $Collection);
+    else
+        $result = ICodeMongoDB::FetchAsCursor(array(),array(), $DB, $Collection);
+
+    print_r(iterator_to_array($result));
+
+}
+
 }

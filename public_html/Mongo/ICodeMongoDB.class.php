@@ -134,6 +134,46 @@ class ICodeMongoDB {
 
 
 
+
+    public static function FetchOneDocAsCursor($Query,$Criteria,$DB,$Collection){
+
+        $con = MongoConfig::GetNewConnection();
+
+        $db = ICodeMongoDB::selectDatabasse($con,$DB);
+
+        $col = ICodeMongoDB::selectCollection($db,$Collection);
+
+        try{
+            $result = $col->findOne($Query,$Criteria);
+        }catch(Exception $ex)
+        {
+            return $ex->getMessage();
+        }
+        return $result;
+    }
+
+
+    public static function FetchOneDocAsArray($Query,$Criteria,$DB,$Collection){
+
+        $con = MongoConfig::GetNewConnection();
+
+        $db = ICodeMongoDB::selectDatabasse($con,$DB);
+
+        $col = ICodeMongoDB::selectCollection($db,$Collection);
+
+        try{
+            $result = $col->findOne($Query,$Criteria);
+        }catch(Exception $ex)
+        {
+            return $ex->getMessage();
+        }
+
+        $result = iterator_to_array($result);
+        return $result;
+    }
+
+
+
     //Replace only Replaces the first document it finds by default.Use Options as array( 'multiple' => true ) for multiple change
 
 
