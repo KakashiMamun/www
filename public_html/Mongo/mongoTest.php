@@ -32,10 +32,16 @@
 require_once('UrboshiArticle.class.php');
 
 
-//UrboshiArticle::createNewArticle('b','abcdd',['a', 'b', 'c'],'zxccv','root/a.img',['name'=>'kuddus', 'id'=>'a'],['a', 't', 'p'],12,['name'=> 'ajaira','id'=>2]);
+//UrboshiArticle::createNewArticle('a','abcdd',['a', 'b', 'c'],'zxccv','root/a.img',[['name'=>'kuddus', 'id'=>1],['name'=>'Morrjina', 'id'=>2]],['a', 't', 'p'],12,[['name'=> 'ajaira','id'=>2],['name'=> 'R o besi ajaira','id'=>1]]);
 
 //var_dump(UrboshiArticle::getArticles());
 
 //print_r(UrboshiArticle::getID('a'));
 
-//print_r(UrboshiArticle::getArticlesV2(array(),array('title', 'tags', 'uploader_id','meta_image')));
+//print_r(UrboshiArticle::getArticlesV2(array('title' => 'a'),array('title', 'tags', 'uploader_id','meta_image')));
+
+//print_r(UrboshiArticle::updateArticle(array('id' => 4),array('title' => 'title updated'),array()));
+
+//print_r(UrboshiArticle::addTags(array('title' => 'a'), array('k', 'l','m')));
+
+//print_r(UrboshiArticle::deleteArticle(array('title' => 'a')));
