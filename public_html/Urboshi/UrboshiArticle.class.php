@@ -70,7 +70,14 @@ class UrboshiArticle {
         else
             $result = ICodeMongoDB::FetchAsCursor(array(),array(), $DB, $Collection);
 
-        return iterator_to_array($result);
+        $result =  iterator_to_array($result);
+
+        $resultSet = array();
+        $i=0;
+        foreach($result as $r)
+            $resultSet[$i++] = $r;
+
+        return $resultSet;
 
     }
 
