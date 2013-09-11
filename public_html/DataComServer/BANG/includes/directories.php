@@ -1,4 +1,4 @@
 <?php
-$BASE_URL="http://banghost.com/";
-$ROOT = '/var/www/public_html/BANG/';
+$BASE_URL="http://DataComServer.com/";
+$ROOT = '/var/www/public_html/DataComServer/BANG/';
 ?>
