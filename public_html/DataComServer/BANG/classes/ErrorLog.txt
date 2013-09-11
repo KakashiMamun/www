@@ -1,0 +1,170 @@
+
+
+1323201104
+Script /michael/sitecoms/testScripts/acceptPayment.php: 
+update icode_cart set paying_account = 'testing@nai.com',
+                                  transaction_id = 'hijibiji',
+                                  payment_date = now(),
+                                  status = 'payment_recieved'
+                                  where cart_id = 
+
+1323201137
+Script /michael/sitecoms/testScripts/acceptPayment.php?cartId=10: 
+update icode_cart set paying_account = 'testing@nai.com',
+                                  transaction_id = 'hijibiji10',
+                                  payment_date = now(),
+                                  status = 'payment_recieved'
+                                  where cart_id = 10
+
+1323201171
+Script /michael/sitecoms/testScripts/acceptPayment.php?cartId=10: 
+update icode_cart set paying_account = 'testing@nai.com',
+                                  transaction_id = 'hijibiji10',
+                                  payment_date = now(),
+                                  status = 'payment_recieved'
+                                  where cart_id = 10
+
+1324413998
+Script /IPN.php stopped due to:
+StrangeData from paypal server: HTTP/1.1 200 OK
+
+
+1324417857
+Script /IPN.php: 
+Array
+(
+    [mc_gross] => 1.15
+    [invoice] => sitecom-4
+    [protection_eligibility] => Ineligible
+    [payer_id] => PUTM82ZZMC94N
+    [tax] => 0.15
+    [payment_date] => 13:50:59 Dec 20, 2011 PST
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [first_name] => anne
+    [mc_fee] => 0.24
+    [notify_version] => 3.4
+    [custom] => 
+    [payer_status] => verified
+    [business] => tom@construction4.me
+    [quantity] => 1
+    [verify_sign] => ADgrgWWe0xiNp9HPM3qCxKYzhOrzAAAuzUL3hwyWjFwJF7GhLAQ5EEwx
+    [payer_email] => annieoliver2009@hotmail.com
+    [txn_id] => 2CR36543B0711925L
+    [payment_type] => instant
+    [last_name] => oliver
+    [receiver_email] => tom@construction4.me
+    [payment_fee] => 
+    [receiver_id] => ZGRVHXZ6QR392
+    [txn_type] => web_accept
+    [item_name] => Invoice no #4
+    [mc_currency] => GBP
+    [item_number] => 
+    [residence_country] => GB
+    [handling_amount] => 0.00
+    [transaction_subject] => Invoice no #4
+    [payment_gross] => 
+    [shipping] => 0.00
+    [ipn_track_id] => gY8TQ9kMJ5nzw2-XdpJhqg
+)
+
+
+1324417858
+Script /IPN.php: 
+StrangeData from paypal server: HTTP/1.1 200 OK
+
+
+1324417858
+Script /IPN.php: 
+StrangeData from paypal server: Date: Tue, 20 Dec 2011 21:51:07 GMT
+
+
+1324417858
+Script /IPN.php: 
+StrangeData from paypal server: Server: Apache
+
+
+1324417858
+Script /IPN.php: 
+StrangeData from paypal server: X-Frame-Options: SAMEORIGIN
+
+
+1324417858
+Script /IPN.php: 
+StrangeData from paypal server: Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=DmMiVza-pwkgmKVQTDqMQT9M3ZHtXx5STwDoeYfeJn4D7SEuR0XrBOqIhR4GsMwr51E2NY6d6bh94KGfQ4nxzsIrIZ0l8Tx3O2gi0VaAo8nfsxhhBnz_E73rmscP6DjH7nae-m%7cw-1wwRikMW6YT7UE-sLeuiQ5SYwATI7L6JOx7ocO87HdF_2_G-QOL9RcO68TSbHOJtPZlG%7crIbqHgvJsPIt6LFhgMWwLii1nv8X1JT7v_wAolJG8GdW0fVp7lrF9Pyz_Z9T47-apufv2G%7c1324417867; domain=.paypal.com; path=/; HttpOnly
+
+
+1324417858
+Script /IPN.php: 
+StrangeData from paypal server: Set-Cookie: cookie_check=yes; expires=Fri, 17-Dec-2021 21:51:07 GMT; domain=.paypal.com; path=/; HttpOnly
+
+
+1324417858
+Script /IPN.php: 
+StrangeData from paypal server: Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; HttpOnly
+
+
+1324417858
+Script /IPN.php: 
+StrangeData from paypal server: Set-Cookie: navlns=0.0; expires=Mon, 15-Dec-2031 21:51:07 GMT; domain=.paypal.com; path=/; HttpOnly
+
+
+1324417858
+Script /IPN.php: 
+StrangeData from paypal server: Vary: Accept-Encoding
+
+
+1324417858
+Script /IPN.php: 
+StrangeData from paypal server: Connection: close
+
+
+1324417858
+Script /IPN.php: 
+StrangeData from paypal server: Content-Type: text/html; charset=UTF-8
+
+
+1324417858
+Script /IPN.php: 
+StrangeData from paypal server: 
+
+
+1324417858
+Script /IPN.php: 
+Verified Paypal Transaction:
+
+1324417858
+Script /IPN.php: 
+Array
+(
+    [cart_id] => 4
+    [customer_id] => 12
+    [product_id] => 4
+    [currency_code] => GBP
+    [amount] => 1.00
+    [transaction_id] => 
+    [paying_account] => 
+    [cart_date] => 2011-12-20
+    [payment_date] => 
+    [gateway] => 
+    [status] => payment_waiting
+    [name] => Vlad and Co
+    [address] => a:1:{i:0;s:6:"line 1";}
+    [city_id] => 82
+    [state_id] => 1
+    [postcode] => s1 2ns
+    [country_code] => UK
+)
+
+
+1324417858
+Script /IPN.php: 
+Potential fraud attack
+
+1324417858
+Script /IPN.php: 
+amount doesn't match
+
+1324417858
+Script /IPN.php: 
+transaction id same

@@ -1,0 +1,122 @@
+request:
+
+
+<request>
+    <operation>
+        getNotifications
+    </operation>       
+    <authKey>
+    </authKey>
+    <getNotifications>  
+        <notificationId>
+        </notificationId>
+        <superUserId>
+        </superuserid>
+        <start>
+        </start>
+        <limit>
+        </limit>
+        <from>
+        </from>
+        <to>
+        </to>
+        <siteId>
+        </siteId>
+        <workgroupId>
+        </workgroupId>        
+        <showHidden>
+        </showHidden>
+        <showRead>
+        </showRead>        
+        <showUnRead>
+        </showUnRead>        
+    </getNotifications>
+</request>
+
+Response:
+
+<response>
+    <operation>
+        getNotifications
+    </operation>     
+    <getNotifications>
+        <total>
+        </total>
+        <superUserId>
+        </superuserid>
+        <items>           
+            <notification>
+                <notificationId>
+                </notificationId>
+                <head>
+                </head>
+                <dateCreated>
+                </dateCreated>
+                <isRead>
+                </isRead>
+                <isHidden>
+                </isHidden>  
+                <!-- start this part is shown only when a notificationId is given in the request -->
+                <body>
+                </body>
+                <files>        
+                    <file>
+                        <name>
+                        </name>
+                        <url>
+                        </url>
+                        <path>
+                        </path>
+                    </file>
+                    <file>
+                        <name>
+                        </name>
+                        <url>
+                        </url>
+                        <path>
+                        </path>
+                    </file>
+                </files>   
+                <!-- end this part is shown only when a notificationId is given in the request -->
+            </notification>
+
+            <notification>
+                <notificationId>
+                </notificationId>
+                <head>
+                </head>
+                <dateCreated>
+                </dateCreated>
+                <isRead>
+                </isRead>
+                <isHidden>
+                </isHidden>  
+                <!-- start this part is shown only when a notificationId is given in the request -->
+                <body>
+                </body>
+                <files>        
+                    <file>
+                        <name>
+                        </name>
+                        <url>
+                        </url>
+                        <path>
+                        </path>
+                    </file>
+                    <file>
+                        <name>
+                        </name>
+                        <url>
+                        </url>
+                        <path>
+                        </path>
+                    </file>
+                </files>   
+                <!-- end this part is shown only when a notificationId is given in the request -->
+            </notification>
+
+        </items>
+    </getNotifications>
+
+</reponse>
+

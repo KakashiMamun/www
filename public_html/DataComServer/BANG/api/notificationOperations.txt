@@ -1,0 +1,56 @@
+Read notification
+
+                              
+<request>
+    <operation>
+        read
+    </operation>   
+    <authKey>
+    </authKey>
+    <read>
+        <notificationId>
+        </notificationId>
+    </read>
+</request>
+
+<response>
+    <operation>
+        read
+    </operation>   
+    <authKey>
+    </authKey>
+    <read>
+        <notificationId>
+        </notificationId> 
+        <errorCode>
+        </errorCode>
+    </read>
+</response>
+
+hide
+
+<request>
+    <operation>
+        hide
+    </operation>   
+    <authKey>
+    </authKey>
+    <read>
+        <notificationId>
+        </notificationId>
+    </read>
+</request>
+
+<response>
+    <operation>
+        hide
+    </operation>   
+    <authKey>
+    </authKey>
+    <read>
+        <notificationId>
+        </notificationId> 
+        <errorCode>
+        </errorCode>
+    </read>
+</response>

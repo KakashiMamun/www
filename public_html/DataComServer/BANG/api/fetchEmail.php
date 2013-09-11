@@ -1,0 +1,43 @@
+<?php
+    require_once('../includes/frontIncludes.php');
+    //$requestXml=$_POST['request'];
+    /*
+        $_POST['xml']=
+                          "
+<request>
+    <operation>
+        getNotifications
+    </operation>       
+    <authKey>NDMtYjE2OGM4NWIwOTllMWQ2YjQ5OWIzZjQxYjFkOGQ3ODYtMA==
+    </authKey>
+    <getNotifications>  
+        <notificationId>
+        </notificationId>
+        <superUserid>
+        </superUserid>
+        <start>
+        </start>
+        <limit>
+        </limit>
+        <from>
+        </from>
+        <to>
+        </to>
+        <siteId>
+        </siteId>
+        <workgroupId>
+        </workgroupId>        
+        <showHidden>
+        </showHidden>
+        <showRead>
+        </showRead>        
+        <showUnRead>
+        </showUnRead>        
+    </getNotifications>
+</request>
+"
+                          ;
+    */
+    SitecomsAPI::ProcessRequest();
+
+?>

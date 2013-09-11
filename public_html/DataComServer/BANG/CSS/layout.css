@@ -1,0 +1,24 @@
+#wrapper
+{
+}
+#top
+{
+    height:60px;
+}            
+#topLogo
+{
+    width:135px;
+    border-right:1px solid #626262;
+}     
+#topLogo img
+{
+    width:135px;
+}                     
+#topNavigation
+{
+    width:80%;
+}
+#topNavigation td
+{
+    height:55px;
+}
