@@ -19,7 +19,8 @@ function createNewAuthor($name){
     UrboshiAuthor::createNewAuthor($name);
 }
 
-function createNewArticle($title,
+function createNewArticle($ID,
+                          $title,
                           $content,
                           $meta_tags,
                           $meta_description,
@@ -35,7 +36,7 @@ function createNewArticle($title,
 
     $categoryInfo = UrboshiCategory::getCategoriesInfo($categories);
 
-    $result = UrboshiArticle::createNewArticle($title,$content,$meta_tags,$meta_description,$meta_image,$authorsInfo,$tags,$uploader_id,$categoryInfo);
+    $result = UrboshiArticle::createNewArticle($ID,$title,$content,$meta_tags,$meta_description,$meta_image,$authorsInfo,$tags,$uploader_id,$categoryInfo);
 
 //    print_r($result);
 
@@ -45,6 +46,8 @@ function createNewArticle($title,
             $ID = UrboshiArticle::getID($title);
             UrboshiCategory::addArticles($category,array('id' => $ID,'title' => $title));
         }
+
+        echo 'Article Insertion Successfull';
     }else{
 
         echo 'Article Insertion Error';
@@ -97,7 +100,7 @@ function getArticleByTitle($title){
 
 function getArticles(){
     $result = UrboshiArticle::getArticles();
-    print_r($result);
+    echo json_encode($result);
 }
 
 function deleteArticleByID($ID){

@@ -8,17 +8,22 @@
     <file path="$PROJECT_DIR$/../BANG/includes/frontIncludes.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378898692850" ignored="false" />
     <file path="$PROJECT_DIR$/../BANG/classes/ICodeDB.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378898766317" ignored="false" />
     <file path="/TMETest.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378915255609" ignored="false" />
-    <file path="/Dummy.txt" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378903509832" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378918535701" ignored="false" />
+    <file path="/Dummy.txt" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379413324746" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379414429088" ignored="false" />
     <file path="/Mongo Console" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378903895533" ignored="false" />
     <file path="/genericform.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378905128922" ignored="false" />
-    <file path="/articleCompose.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378910111419" ignored="false" />
+    <file path="/articleCompose.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379416683865" ignored="false" />
     <file path="/timeMCEConfig.js" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378909426500" ignored="false" />
-    <file path="$PROJECT_DIR$/../Urboshi/UrboshiAction.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378910941704" ignored="false" />
-    <file path="/UrboshiAction.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378910940038" ignored="false" />
+    <file path="$PROJECT_DIR$/../Urboshi/UrboshiAction.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379430407270" ignored="false" />
+    <file path="/UrboshiAction.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379429832589" ignored="false" />
     <file path="/a.sql" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378919395017" ignored="false" />
     <file path="/dummy.sql" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378919389120" ignored="false" />
     <file path="/UrboshiNextID.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378914745091" ignored="false" />
+    <file path="$PROJECT_DIR$/../Urboshi/testLink.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379413038943" ignored="false" />
+    <file path="/action.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379429800794" ignored="false" />
+    <file path="$PROJECT_DIR$/../Urboshi/UrboshiController.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379413859360" ignored="false" />
+    <file path="$PROJECT_DIR$/../Urboshi/UrboshiArticle.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379416596924" ignored="false" />
+    <file path="/UrboshiController.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379430344478" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +48,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="articleCompose.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BANG/forms/articleCompose.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="12" selection-start="2321" selection-end="2321" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ICodeTools.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BANG/classes/ICodeTools.class.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,36 +66,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TMETest.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TMETest.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BANG/TMETest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="1" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.88304096">
+            <state line="28" column="71" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1378920242225" expanded="true" signature="11:172" placeholder=" Created by JetBrains PhpStorm. ..." />
-                <marker date="1378920242225" expanded="true" signature="402:573" placeholder="..." />
-                <marker date="1378920242225" expanded="true" signature="581:863" placeholder="..." />
-                <marker date="1378920242225" expanded="true" signature="879:1601" placeholder="..." />
-                <marker date="1378920242225" expanded="true" signature="893:1186" placeholder="..." />
-                <marker date="1378920242225" expanded="true" signature="1200:1586" placeholder="..." />
-                <marker date="1378920242225" expanded="true" signature="1308:1571" placeholder="..." />
+                <marker date="1379413971942" expanded="true" signature="6:821" placeholder="//..." />
+                <marker date="1379413971942" expanded="true" signature="9:158" placeholder=" Created by JetBrains PhpStorm. ..." />
+                <marker date="1379413971942" expanded="true" signature="380:539" placeholder="..." />
+                <marker date="1379413971942" expanded="true" signature="547:819" placeholder="..." />
+                <marker date="1379413971942" expanded="true" signature="829:1435" placeholder="..." />
+                <marker date="1379413971942" expanded="true" signature="836:1101" placeholder="..." />
+                <marker date="1379413971942" expanded="true" signature="1108:1427" placeholder="..." />
+                <marker date="1379413971942" expanded="true" signature="1200:1419" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="noCacheHeader.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BANG/includes/noCacheHeader.php">
+      <file leaf-file-name="NextIDTest.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BANG/NextIDTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ICodeDB.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BANG/classes/ICodeDB.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="0" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.0">
+            <state line="9" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.10074627">
               <folding />
             </state>
           </provider>
@@ -124,11 +112,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/BANG/includes/directories.php" />
         <option value="dbtable:/b0c65bfd/05909c56-4344-4662-b84f-6d2b071aa174/Bang..icode_configuration" />
         <option value="$PROJECT_DIR$/BANG/forms/genericform.php" />
         <option value="$PROJECT_DIR$/BANG/JS/timeMCEConfig.js" />
-        <option value="$PROJECT_DIR$/BANG/forms/articleCompose.php" />
         <option value="dbtable:/b0c65bfd/05909c56-4344-4662-b84f-6d2b071aa174/Bang..articleUID" />
         <option value="db-console:/b0c65bfd/05909c56-4344-4662-b84f-6d2b071aa174/" />
         <option value="$PROJECT_DIR$/BANG/includes/adminConnection.php" />
@@ -136,7 +122,12 @@
         <option value="dbtable:/b0c65bfd/05909c56-4344-4662-b84f-6d2b071aa174/Bang..categoryID" />
         <option value="$PROJECT_DIR$/BANG/UrboshiNextID.class.php" />
         <option value="dbtable:/b0c65bfd/05909c56-4344-4662-b84f-6d2b071aa174/Bang..articleID" />
+        <option value="$PROJECT_DIR$/action.php" />
+        <option value="$PROJECT_DIR$/BANG/NextIDTest.php" />
         <option value="$PROJECT_DIR$/BANG/TMETest.php" />
+        <option value="/media/762A561D2A55DB27/wamp/www/Test/autocomplete.html" />
+        <option value="$PROJECT_DIR$/BANG/forms/articleCompose.php" />
+        <option value="$PROJECT_DIR$/BANG/action.php" />
       </list>
     </option>
   </component>
@@ -161,7 +152,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -172,51 +163,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataComServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataComServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataComServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BANG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataComServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataComServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BANG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Database.TableEditor.Splitter" value="0.6233184" />
@@ -224,10 +171,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.codinjutsu.tools.mongo.view.MongoConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BANG" />
+    </key>
   </component>
   <component name="RunManager" selected="PHP Script.TMETest.php">
     <configuration default="false" name="TMETest.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/BANG/TMETest.php">
@@ -257,6 +209,13 @@
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
@@ -295,7 +254,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22727273" sideWeight="0.6003401" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Unicode Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Unicode Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40816328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -305,7 +264,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20075758" sideWeight="0.6003401" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22575757" sideWeight="0.6003401" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16818182" sideWeight="0.6003401" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -376,47 +335,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BANG/firstTime.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/b0c65bfd/05909c56-4344-4662-b84f-6d2b071aa174/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="77" selection-end="127" vertical-scroll-proportion="0.26865673" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BANG/JS/timeMCEConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="67" selection-start="585" selection-end="585" vertical-scroll-proportion="0.52478135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BANG/classes/ICodeFile.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="25" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BANG/classes/Blank.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="30" selection-start="759" selection-end="759" vertical-scroll-proportion="0.3846154" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BANG/includes/directories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BANG/includes/adminConnection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="111" selection-end="111" vertical-scroll-proportion="0.12162162" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BANG/includes/frontIncludes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="25" selection-start="70" selection-end="70" vertical-scroll-proportion="-0.033783782" />
@@ -427,41 +349,30 @@
         <state line="59" column="29" selection-start="2281" selection-end="2281" vertical-scroll-proportion="-0.64705884" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BANG/forms/articleCompose.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="12" selection-start="2321" selection-end="2321" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/b0c65bfd/05909c56-4344-4662-b84f-6d2b071aa174/Bang..categoryID">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BANG/includes/noCacheHeader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="dbDummy://dbtable:/b0c65bfd/05909c56-4344-4662-b84f-6d2b071aa174/Bang..articleID">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BANG/classes/ICodeDB.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="71" column="0" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.5614035" />
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/b0c65bfd/05909c56-4344-4662-b84f-6d2b071aa174/Bang..articleID">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+    <entry file="file://$PROJECT_DIR$/BANG/includes/noCacheHeader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="2" selection-start="418" selection-end="418" vertical-scroll-proportion="0.3508772" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BANG/UrboshiNextID.class.php">
@@ -471,18 +382,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///media/762A561D2A55DB27/wamp/www/Test/autocomplete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="13" selection-start="2543" selection-end="2543" vertical-scroll-proportion="2.2105262" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BANG/JS/timeMCEConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="17" selection-start="718" selection-end="718" vertical-scroll-proportion="0.6703911" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BANG/TMETest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="1" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.88304096">
+        <state line="28" column="71" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1378920242225" expanded="true" signature="11:172" placeholder=" Created by JetBrains PhpStorm. ..." />
-            <marker date="1378920242225" expanded="true" signature="402:573" placeholder="..." />
-            <marker date="1378920242225" expanded="true" signature="581:863" placeholder="..." />
-            <marker date="1378920242225" expanded="true" signature="879:1601" placeholder="..." />
-            <marker date="1378920242225" expanded="true" signature="893:1186" placeholder="..." />
-            <marker date="1378920242225" expanded="true" signature="1200:1586" placeholder="..." />
-            <marker date="1378920242225" expanded="true" signature="1308:1571" placeholder="..." />
+            <marker date="1379413971942" expanded="true" signature="6:821" placeholder="//..." />
+            <marker date="1379413971942" expanded="true" signature="9:158" placeholder=" Created by JetBrains PhpStorm. ..." />
+            <marker date="1379413971942" expanded="true" signature="380:539" placeholder="..." />
+            <marker date="1379413971942" expanded="true" signature="547:819" placeholder="..." />
+            <marker date="1379413971942" expanded="true" signature="829:1435" placeholder="..." />
+            <marker date="1379413971942" expanded="true" signature="836:1101" placeholder="..." />
+            <marker date="1379413971942" expanded="true" signature="1108:1427" placeholder="..." />
+            <marker date="1379413971942" expanded="true" signature="1200:1419" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="662" column="9" selection-start="19273" selection-end="19273" vertical-scroll-proportion="0.3489279" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/zlib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="270" column="9" selection-start="8379" selection-end="8379" vertical-scroll-proportion="-7.75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BANG/action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="39" selection-start="625" selection-end="625" vertical-scroll-proportion="0.53731346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BANG/forms/articleCompose.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="12" selection-start="4112" selection-end="4112" vertical-scroll-proportion="0.3955224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BANG/classes/ICodeTools.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="206" column="27" selection-start="6983" selection-end="6983" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BANG/NextIDTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.10074627">
+          <folding />
         </state>
       </provider>
     </entry>

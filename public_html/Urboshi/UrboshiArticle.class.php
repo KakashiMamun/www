@@ -12,7 +12,8 @@ require_once('MongoDB/ICodeMongoDB.class.php');
 
 class UrboshiArticle {
 
-    public static function createNewArticle($title,
+    public static function createNewArticle($ID,
+                                            $title,
                                             $content,
                                             $meta_tags=array(),
                                             $meta_description,
@@ -24,7 +25,7 @@ class UrboshiArticle {
     ){
         $DB = 'Urboshi';
         $Collection = 'Articles';
-        $ID = UrboshiArticle::GetNextArticleID();
+//        $ID = UrboshiArticle::GetNextArticleID();
 
         $article = array(
             'id' => $ID,
