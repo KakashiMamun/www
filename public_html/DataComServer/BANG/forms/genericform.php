@@ -42,7 +42,7 @@
                      </td>
                      <td class='rightTd'> 
                          <select name='' id=''>
-                              <option  <?php echo ICodeTools::IfSelected(,); ?>  value=""></option>
+                              <option  <?php echo ICodeTools::IfSelected('',''); ?>  value=""></option>
                          </select>
                      </td>
                  </tr>

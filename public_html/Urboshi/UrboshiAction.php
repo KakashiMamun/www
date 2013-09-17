@@ -7,3 +7,5 @@
  * To change this template use File | Settings | File Templates.
  */
 
+if($_POST)
+    var_dump($_POST);

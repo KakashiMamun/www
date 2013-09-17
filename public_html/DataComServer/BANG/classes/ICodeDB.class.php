@@ -9,7 +9,6 @@
         public static function LockTables($tableList)
         {       
 
-            mysql_connect();
             $tableList=str_replace(',',' write,',$tableList).' write';
             mysql_query("lock tables $tableList");
             if(mysql_errno()!=0)
