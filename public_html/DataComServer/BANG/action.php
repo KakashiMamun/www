@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-require_once('UrboshiNextID.class.php');
+require_once('classes/UrboshiNextID.class.php');
 if($_POST){
 //    var_dump($_POST);
 //    var_dump($_FILES);
@@ -30,7 +30,6 @@ if($_POST){
 
     if(isset($_POST['Content'])){
         $fields ['content']= gzdeflate($_POST['Content']);
-//        echo gzcompress($fields['content'],5);
     }else{
          array_push($error,'No Article Body');
     }

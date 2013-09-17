@@ -25,20 +25,31 @@ if($_POST){
             $_POST['authors'] =  unserialize($_POST['authors']);
             $_POST['meta_img'] =  unserialize($_POST['meta_img']);
             $_POST['content'] = ( $_POST['content'] );
-//                                        var_dump($_POST);
-
+             var_dump($_POST);
              extract($_POST);
+//             echo gzinflate($content);
 ////                                        var_dump($categories);
-            foreach($categories as $key => $cat){
-
-                $categories[$key] = intval($cat);
-            }
+//            foreach($categories as $key => $cat){
+//
+//                $categories[$key] = intval($cat);
+//            }
 ////                                        var_dump($categories);
-            createNewArticle($ID,$title,$content,$meta_tags,$meta_Desc,$meta_img,$authors,$tags,$uploader_id,$categories);
+//            createNewArticle($ID,$title,$content,$meta_tags,$meta_Desc,$meta_img,$authors,$tags,$uploader_id,$categories);
 ///
-
-                                    }
+            }
         }
     }
+
+}
+
+if($_GET['term']){
+
+//    echo 'get works';
+//    echo getCategories($_GET['term']);
+
+    $json = getCategories($_GET['term'];
+    echo isset($_GET['callback'])
+        ? $_GET['callback'] . '('.$json.')'
+        : $json;
 
 }

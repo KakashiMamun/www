@@ -113,6 +113,21 @@ function deleteArticleByID($ID){
 //    print_r($result);
 }
 
+function getCategories($nameLike = null){
+
+    $fields = array('name','id');
+    if($nameLike){
+        $query = array('name' => new MongoRegex("/.*$nameLike.*/"));
+
+        $result = UrboshiCategory::getCatgeoriesV2($query,$fields);
+    }else{
+
+        $result = UrboshiCategory::getCatgeoriesV2(array(),$fields);
+    }
+
+     return json_encode($result);
+}
+
 //createNewCategory('New Category');
 //createNewAuthor('NewAuthor');
 //createNewArticle('A 2nd title','Ki ar lekhbo!!', 'baaler tags','baal er desc','chaat er image amr',4,array('Food', 'Cooking', 'Western'),420,array(3,5));
@@ -121,3 +136,4 @@ function deleteArticleByID($ID){
 //getArticleByTitle('An Updated title');
 //getArticles();
 //deleteArticleByID(6);
+//getCategories('');

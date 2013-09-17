@@ -1,7 +1,7 @@
 
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
 <style>
-    .ui-autocomplete { height: 200px; overflow-y: scroll; overflow-x: hidden;}
+    .ui-autocomplete { max-height: 200px; overflow-y: scroll; overflow-x: hidden;}
 </style>
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
@@ -26,9 +26,50 @@
             .autocomplete({
                 source:
                     function( request, response ) {
-                        $.getJSON("../action.php", {
-                            term: extractLast( request.term )
-                        }, response );
+
+                        var url = "http://Urboshi.com/UrboshiAction.php";
+
+                        $.ajax({
+                            url: url,
+                            contentType: "application/json",
+                            dataType: 'jsonp',
+                            type: "GET",
+                            data: {term: extractLast( request.term )},
+                            success: function(data) {
+                                var suggestions = [];
+
+                                //process response
+                                $.each(data, function(i, val){
+                                    suggestions.push(val.name);
+
+                                });
+                                //pass array to callback
+                                response(suggestions);
+                            },
+                            error: function (xhr, ajaxOptions, thrownError) {
+//                                alert(JSON.stringify(ajaxOptions));
+
+                            }
+                        });
+
+                        $.getJSON("http://Urboshi.com/UrboshiAction.php",
+                        {term: extractLast( request.term )},
+                        function(data){
+
+                            var suggestions = [];
+
+                            //process response
+                            $.each(data, function(i, val){
+                                suggestions.push(val.name);
+                            });
+//
+                            alert(JSON.stringify(data));
+//                            alert(JSON.stringify(suggestions));
+                            //pass array to callback
+                            response(suggestions);
+                        });
+
+
                     },
                 search: function() {
 // custom minLength
@@ -92,7 +133,7 @@ if(isset($_POST['formSubmitted']))
         <tr>
             <td class='leftTd'> Tags:
             </td>
-            <td class='rightTd'><textarea class="autocomplete_Multiple  ui-widget" cols="80" rows="1" name='Tags' id='Tags'></textarea>
+            <td class='rightTd'><textarea  cols="80" rows="1" name='Tags' id='Tags'></textarea>
             </td>
         </tr>
 
@@ -112,7 +153,7 @@ if(isset($_POST['formSubmitted']))
             <td class='leftTd'>Categories :
             </td>
 
-            <td class='rightTd'><input size="40" type='text' name='Categories' id='Categories' value="">
+            <td class='rightTd'><input class="autocomplete_Multiple  ui-widget" size="40" type='text' name='Categories' id='Categories' value="">
             </td>
         </tr>
         <tr>
