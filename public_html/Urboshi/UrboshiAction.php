@@ -47,7 +47,7 @@ if($_GET['term']){
 //    echo 'get works';
 //    echo getCategories($_GET['term']);
 
-    $json = getCategories($_GET['term'];
+    $json = getCategories($_GET['term']);
     echo isset($_GET['callback'])
         ? $_GET['callback'] . '('.$json.')'
         : $json;

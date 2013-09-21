@@ -1,6 +1,6 @@
 <?php
     $formError='';
-    $numberOfSites=Site::GetTotal($currentUserId,'');
+    $numberOfSites=0;
     if($numberOfSites<=0)
         $formError="Please create the first site to get started";
     $form='site';
@@ -8,7 +8,7 @@
     {                                       
         $_POST['ownerId']=$currentUserId;
         $_POST['status']='inactive';
-        $siteId=Site::Add();
+        //$siteId=Site::Add();
         if(is_numeric($siteId) && $siteId>0)
         {
             $form='payment';
@@ -20,7 +20,7 @@
     }
     if($form=='payment')
     {
-        $siteInfo=Site::GetInfo($siteId);
+        //$siteInfo=Site::GetInfo($siteId);
     }
     /** printing starts **/
     echo"<div id='status' class='formError'>
