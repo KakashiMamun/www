@@ -11,14 +11,10 @@ require_once('classes/UrboshiNextID.class.php');
 if($_POST){
 //    var_dump($_POST);
 //    var_dump($_FILES);
-
-
-
-
     //set POST variables
 
     //url to article server
-    $url = 'http://urboshi.com/UrboshiAction.php';
+    $url = 'http://data.com/DataAPI.php';
 
     $fields = array();
     $error = array();
@@ -29,7 +25,7 @@ if($_POST){
     }
 
     if(isset($_POST['Content'])){
-        $fields ['content']= gzdeflate($_POST['Content']);
+        $fields ['content']= ($_POST['Content']);
     }else{
          array_push($error,'No Article Body');
     }
@@ -110,14 +106,14 @@ if($_POST){
     }
 
 
-//    $fields_string = '';
+    $fields_string = '';
 //url-ify the data for the POST
     foreach($fields as $key=>$value)
     {
-        $fields_string .= $key.'='.$value.'&';
+        $fields_string .= $key.'='. urlencode($value) . '&';
     }
     $fields_string = trim($fields_string, "&");
-//    var_dump($fields_string);
+    var_dump($fields_string);
 
 //
 //open connection
@@ -125,14 +121,15 @@ if($_POST){
 
 //set the url, number of POST vars, POST data
     curl_setopt($ch,CURLOPT_URL, $url);
-    curl_setopt($ch,CURLOPT_POST, count($fields));
+    curl_setopt($ch,CURLOPT_POST, true);
     curl_setopt($ch,CURLOPT_POSTFIELDS, $fields_string);
+    curl_setopt($ch,CURLOPT_RETURNTRANSFER, true);
 
 //execute post
     $result = curl_exec($ch);
 
 //close connection
     curl_close($ch);
-
+    echo $result;
 
 }
