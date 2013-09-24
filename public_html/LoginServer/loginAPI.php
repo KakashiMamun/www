@@ -9,14 +9,13 @@
 require_once('includes/frontIncludes.php');
 require_once('classes/LoginModule.php');
 
-if(isset($_POST['email'])){
-
+if(isset($_POST)){
     $email = $_POST['email'];
-    $password = $_POST['password'];
+    $password = md5($_POST['password']);
     if(isset($_POST['TTL']))
         $TTL  = $_POST['TTL'];
     else
-        $TTL  = rand(-10,10);
+        $TTL  = rand(0,10);
 
     $result = LoginModule::GetUser($email, $password);
 
@@ -44,17 +43,19 @@ if(isset($_POST['email'])){
 
             fastcgi_finish_request();
 
-            $sql = "INSERT INTO session_history values(NOW());";
-
-            ICodeDB::FreshInsert($sql);
+//            $sql = "INSERT INTO session_history values(NOW());";
+//
+//            ICodeDB::FreshInsert($sql);
 
             exit();
-    }else{
+    }else
+    {
 
         echo 'Incorrect Login Info';
     }
 
-}else{
+}else
+{
     echo 'no such user';
 }
 ?>
