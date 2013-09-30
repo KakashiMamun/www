@@ -8,10 +8,12 @@
  */
 
 class CurlLib {
+        private static $URL = 'http://data.com/dataAPI.php';
 
-        public static function curlPost($url,$fields)
+        public static function curlPost($fields)
         {
-
+//            var_dump($fields);
+            $url = CurlLib::$URL;
             $fields_string = '';
             //url-ify the data for the POST
             foreach($fields as $key=>$value)
@@ -37,12 +39,15 @@ class CurlLib {
 
             //close connection
             curl_close($ch);
+//            print_r($result);
+//            echo 'ok';
             return $result;
         }
 
-        public static function curlGet($url,$fields)
+        public static function curlGet($fields)
         {
 
+            $url = CurlLib::$URL;
             $fields_string = '';
             //url-ify the data for the GET
             foreach($fields as $key=>$value)
@@ -50,8 +55,8 @@ class CurlLib {
                 $fields_string .= $key.'='. urlencode($value) . '&';
             }
             $fields_string = trim($fields_string, "&");
-            //var_dump($fields_string);
-
+//            var_dump($fields_string);
+//
 
             //open connection
             $ch = curl_init();
@@ -66,8 +71,8 @@ class CurlLib {
             //execute post
             $result = curl_exec($ch);
 
-            var_dump($result);
-
+//            var_dump($result);
+//
             //close connection
             curl_close($ch);
             return $result;

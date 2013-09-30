@@ -8,15 +8,15 @@
     <file path="$PROJECT_DIR$/../BANG/includes/frontIncludes.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378898692850" ignored="false" />
     <file path="$PROJECT_DIR$/../BANG/classes/ICodeDB.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378898766317" ignored="false" />
     <file path="/TMETest.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378915255609" ignored="false" />
-    <file path="/Dummy.txt" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379990072063" ignored="false" />
+    <file path="/Dummy.txt" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380549263044" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379438296853" ignored="false" />
     <file path="/Mongo Console" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378903895533" ignored="false" />
     <file path="/genericform.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378905128922" ignored="false" />
-    <file path="/articleCompose.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380037718244" ignored="false" />
+    <file path="/articleCompose.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380540116401" ignored="false" />
     <file path="/timeMCEConfig.js" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378909426500" ignored="false" />
     <file path="$PROJECT_DIR$/../Urboshi/UrboshiAction.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379772945530" ignored="false" />
     <file path="/UrboshiAction.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379426624973" ignored="false" />
-    <file path="/a.sql" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379988597876" ignored="false" />
+    <file path="/a.sql" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380524078483" ignored="false" />
     <file path="/dummy.sql" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378919389120" ignored="false" />
     <file path="/UrboshiNextID.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1378914745091" ignored="false" />
     <file path="$PROJECT_DIR$/../Urboshi/testLink.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379413038943" ignored="false" />
@@ -31,7 +31,7 @@
     <file path="$PROJECT_DIR$/BANG/CSS/2colpage.css" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379987747309" ignored="false" />
     <file path="$PROJECT_DIR$/BANG/member/classPages/Admin.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379987747309" ignored="false" />
     <file path="$PROJECT_DIR$/BANG/member/classPages/SuperAdministrator.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379987747309" ignored="false" />
-    <file path="/MariaDB" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379995180081" ignored="false" />
+    <file path="/MariaDB" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380549029424" ignored="false" />
     <file path="/Codes/BANG2/classes/curlLib.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379989096410" ignored="false" />
     <file path="/curlLib.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379989402972" ignored="false" />
     <file path="/dataManipInclude.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379990864367" ignored="false" />
@@ -45,20 +45,37 @@
     <file path="/DataLibrary.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380035346553" ignored="false" />
     <file path="$PROJECT_DIR$/../DataServer/BANG/DataServerClasses/classes/UrboshiCategory.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380034845183" ignored="false" />
     <file path="$PROJECT_DIR$/../DataServer/BANG/DataServerClasses/classes/UrboshiArticle.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380021708432" ignored="false" />
-    <file path="/UrboshiArticle.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380020484311" ignored="false" />
+    <file path="/UrboshiArticle.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380543454620" ignored="false" />
     <file path="$PROJECT_DIR$/../DataServer/BANG/DataServerClasses/classes/MongoAdminConfig.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380000119534" ignored="false" />
     <file path="/MongoAdminConfig.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380000065013" ignored="false" />
     <file path="$PROJECT_DIR$/../DataServer/BANG/DataServerClasses/classes/ICodeMongoDB.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380000045871" ignored="false" />
-    <file path="/ICodeMongoDB.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379997633380" ignored="false" />
-    <file path="/UrboshiCategory.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379998146185" ignored="false" />
-    <file path="/CurlLib.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380020569449" ignored="false" />
+    <file path="/ICodeMongoDB.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380534171718" ignored="false" />
+    <file path="/UrboshiCategory.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380523199966" ignored="false" />
+    <file path="/CurlLib.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380526463657" ignored="false" />
     <file path="$PROJECT_DIR$/../DataServer/BANG/DataServerClasses/classes/UrboshiAuthor.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379999239588" ignored="false" />
     <file path="/UrboshiAuthor.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1379999235613" ignored="false" />
     <file path="/viewArticle.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380027761788" ignored="false" />
     <file path="/veiwArticle.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380026225321" ignored="false" />
-    <file path="/editArticle.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380040424194" ignored="false" />
+    <file path="/editArticle.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380537500965" ignored="false" />
     <file path="/createNewCategory.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380035022669" ignored="false" />
     <file path="/viewArticles.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380039355958" ignored="false" />
+    <file path="$PROJECT_DIR$/../DataServer/dataAPI.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380543856418" ignored="false" />
+    <file path="/dataAPI.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380543336323" ignored="false" />
+    <file path="$PROJECT_DIR$/../DataServer/includes/adminConnection.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380498564881" ignored="false" />
+    <file path="$PROJECT_DIR$/../DataServer/includes/directories.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380488316560" ignored="false" />
+    <file path="$PROJECT_DIR$/../DataServer/classes/DataLibrary.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380491313924" ignored="false" />
+    <file path="$PROJECT_DIR$/../DataServer/classes/UrboshiArticle.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380543459804" ignored="false" />
+    <file path="/Article.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380543265878" ignored="false" />
+    <file path="$PROJECT_DIR$/../DataServer/classes/UrboshiCategory.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380536340660" ignored="false" />
+    <file path="$PROJECT_DIR$/../DataServer/classes/ICodeError.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380524713142" ignored="false" />
+    <file path="$PROJECT_DIR$/../DataServer/classes/ICodeMongoDB.class.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380534177134" ignored="false" />
+    <file path="dbtable:/f43cc20a/05909c56-4344-4662-b84f-6d2b071aa174/dataserver..icode_error" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380524017749" ignored="false" />
+    <file path="dbtable:/f43cc20a/05909c56-4344-4662-b84f-6d2b071aa174/dataserver..icode_error_log" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380524026270" ignored="false" />
+    <file path="$PROJECT_DIR$/../DataServer/forms/viewLog.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380524135536" ignored="false" />
+    <file path="db-console:/f43cc20a/05909c56-4344-4662-b84f-6d2b071aa174/" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380524241370" ignored="false" />
+    <file path="/manageArticles.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380530118483" ignored="false" />
+    <file path="/deleteArticle.php" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380543139179" ignored="false" />
+    <file path="db-console:/235d407d/05909c56-4344-4662-b84f-6d2b071aa174/" changelist="50e1aa07-05b0-485b-9888-ec2f2299c43f" time="1380549086030" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +99,110 @@
     <favorites_list name="DataComServer" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="deleteArticle.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BANG/forms/deleteArticle.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="33" selection-start="570" selection-end="570" vertical-scroll-proportion="-12.583333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editArticle.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BANG/forms/editArticle.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="29" selection-start="546" selection-end="546" vertical-scroll-proportion="-9.75">
+              <folding>
+                <marker date="1380539806569" expanded="true" signature="1661:5534" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="1710:5534" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="1740:1915" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="1782:1850" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="1877:1900" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="1985:5532" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="2016:5514" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="2055:2111" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="2151:4841" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="2227:4818" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="2256:2539" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="2304:2345" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="2394:2509" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="2569:2853" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="2617:2657" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="2707:2823" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="2883:3166" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="2931:2971" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="3020:3136" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="3196:3495" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="3244:3290" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="3339:3465" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="3524:3835" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="3572:3624" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="3673:3805" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="3864:4204" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="3912:3958" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="4008:4174" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="4233:4492" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="4281:4327" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="4376:4462" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="4521:4789" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="4569:4603" placeholder="..." />
+                <marker date="1380539806569" expanded="true" signature="4652:4759" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Article.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BANG/classes/Article.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="273" column="11" selection-start="8468" selection-end="8485" vertical-scroll-proportion="-11.833333">
+              <folding>
+                <element signature="n#Add#0;n#Article#0;n#!!top" expanded="false" />
+                <element signature="n#getNextArticleID#0;n#Article#0;n#!!top" expanded="false" />
+                <element signature="n#Validate#0;n#Article#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurlLib.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BANG/classes/CurlLib.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="24" selection-start="1208" selection-end="1208" vertical-scroll-proportion="-13.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Author.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BANG/classes/Author.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="62" selection-start="1157" selection-end="1157" vertical-scroll-proportion="-18.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewArticle.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BANG/forms/viewArticle.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="0" selection-start="901" selection-end="901" vertical-scroll-proportion="-4.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MariaDB" pinned="false" current="true" current-in-tab="true">
+        <entry file="dbDummy://db-console:/9f3d2c3d/05909c56-4344-4662-b84f-6d2b071aa174/">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="668" selection-end="668" vertical-scroll-proportion="0.2913386">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -92,22 +212,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/BANG/member/htmlHead.php" />
-        <option value="$PROJECT_DIR$/BANG/footer.php" />
-        <option value="$PROJECT_DIR$/BANG/JS/categoryAutoComplete.js" />
-        <option value="$PROJECT_DIR$/BANG/classes/UrboshiNextID.class.php" />
         <option value="$PROJECT_DIR$/BANG/forms/veiwArticle.php" />
         <option value="$PROJECT_DIR$/BANG/member/footer.php" />
-        <option value="$PROJECT_DIR$/BANG/classes/CurlLib.class.php" />
         <option value="$PROJECT_DIR$/BANG/forms/createNewCategory.php" />
-        <option value="db-console:/9f3d2c3d/05909c56-4344-4662-b84f-6d2b071aa174/" />
         <option value="$PROJECT_DIR$/BANG/sql/NextIDGen.sql" />
-        <option value="$PROJECT_DIR$/BANG/forms/articleCompose.php" />
         <option value="$PROJECT_DIR$/BANG/includes/directories.php" />
         <option value="$PROJECT_DIR$/BANG/forms/viewArticles.php" />
-        <option value="$PROJECT_DIR$/BANG/classes/Author.class.php" />
+        <option value="$PROJECT_DIR$/BANG/JS/categoryAutoComplete.js" />
         <option value="$PROJECT_DIR$/BANG/forms/editArticle.php" />
+        <option value="$PROJECT_DIR$/BANG/forms/articleCompose.php" />
+        <option value="$PROJECT_DIR$/BANG/forms/manageArticles.php" />
+        <option value="$PROJECT_DIR$/BANG/classes/Article.class.php" />
+        <option value="$PROJECT_DIR$/BANG/forms/deleteArticle.php" />
+        <option value="$PROJECT_DIR$/BANG/classes/CurlLib.class.php" />
+        <option value="$PROJECT_DIR$/BANG/classes/Author.class.php" />
         <option value="$PROJECT_DIR$/BANG/forms/viewArticle.php" />
+        <option value="db-console:/9f3d2c3d/05909c56-4344-4662-b84f-6d2b071aa174/" />
       </list>
     </option>
   </component>
@@ -180,24 +300,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataManipServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataManipServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BANG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="forms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -219,6 +321,10 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BANG/forms" />
+      <recent name="$PROJECT_DIR$/BANG/classes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/BANG/JS" />
       <recent name="$PROJECT_DIR$/BANG/classes" />
@@ -231,11 +337,6 @@
       <RunnerSettings RunnerId="PhpScriptDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="UrboshiNextID.class.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/BANG/UrboshiNextID.class.php">
-      <RunnerSettings RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
     <configuration default="false" name="viewArticle.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/BANG/forms/viewArticle.php">
@@ -251,6 +352,11 @@
       <method />
     </configuration>
     <configuration default="false" name="editArticle.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/BANG/forms/editArticle.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="articleCompose.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/BANG/forms/articleCompose.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
@@ -277,18 +383,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.TMETest.php" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Script.UrboshiNextID.class.php" />
-      <item index="2" class="java.lang.String" itemvalue="PHP Script.viewArticle.php" />
-      <item index="3" class="java.lang.String" itemvalue="PHP Script.veiwArticle.php" />
-      <item index="4" class="java.lang.String" itemvalue="PHP Script.editArticle.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.viewArticle.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.veiwArticle.php" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.editArticle.php" />
+      <item index="4" class="java.lang.String" itemvalue="PHP Script.articleCompose.php" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="PHP Script.editArticle.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.veiwArticle.php" />
-        <item index="2" class="java.lang.String" itemvalue="PHP Script.viewArticle.php" />
-        <item index="3" class="java.lang.String" itemvalue="PHP Script.TMETest.php" />
-        <item index="4" class="java.lang.String" itemvalue="PHP Script.UrboshiNextID.class.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.articleCompose.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.veiwArticle.php" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.viewArticle.php" />
+        <item index="4" class="java.lang.String" itemvalue="PHP Script.TMETest.php" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +413,8 @@
     <layout>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47108844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22727273" sideWeight="0.5289116" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60714287" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22727273" sideWeight="0.5289116" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Unicode Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40816328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -318,12 +425,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20075758" sideWeight="0.6003401" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924242" sideWeight="0.5289116" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18863636" sideWeight="0.39285713" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29421768" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60714287" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -392,119 +498,155 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BANG/forms/createNewCategory.php">
+    <entry file="file://$PROJECT_DIR$/BANG/JS/categoryAutoComplete.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="407" selection-end="407" vertical-scroll-proportion="-2.8283582">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BANG/sql/icode.sql">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="19" selection-start="1777" selection-end="2092" vertical-scroll-proportion="0.57410884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BANG/sql/NextIDGen.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.7632509">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/9f3d2c3d/05909c56-4344-4662-b84f-6d2b071aa174/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="2" selection-start="251" selection-end="251" vertical-scroll-proportion="0.77952754">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="962" column="9" selection-start="30821" selection-end="30821" vertical-scroll-proportion="-15.583333">
+        <state line="33" column="32" selection-start="1043" selection-end="1043" vertical-scroll-proportion="1.0607142">
           <folding>
-            <element signature="e#30476#30811#0" expanded="true" />
+            <element signature="e#0#156#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BANG/classes/ICodeFile.class.php">
+    <entry file="file://$PROJECT_DIR$/BANG/member/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="45" selection-start="993" selection-end="993" vertical-scroll-proportion="-0.17017208">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BANG/classes/ICodeFormValidation.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="37" selection-start="4159" selection-end="4159" vertical-scroll-proportion="0.67164177">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BANG/forms/administratorManagement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="13" column="38" selection-start="858" selection-end="858" vertical-scroll-proportion="0.44741875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BANG/forms/siteManagement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4179105">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BANG/forms/manageSite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="12.916667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BANG/classes/UrboshiNextID.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="3" selection-start="188" selection-end="382" vertical-scroll-proportion="0.20149253">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BANG/classes/SystemController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="73" selection-start="583" selection-end="602" vertical-scroll-proportion="0.5162524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BANG/classes/Permission.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="39" selection-start="336" selection-end="336" vertical-scroll-proportion="0.20149253">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BANG/forms/articleCompose.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="15" selection-start="152" selection-end="152" vertical-scroll-proportion="-5.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BANG/includes/directories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="69" selection-start="164" selection-end="164" vertical-scroll-proportion="0.10074627">
+        <state line="89" column="19" selection-start="3098" selection-end="3098" vertical-scroll-proportion="-41.083332">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BANG/forms/manageArticles.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="24" selection-start="1887" selection-end="1887" vertical-scroll-proportion="-56.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BANG/classes/Author.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="61" selection-start="1112" selection-end="1112" vertical-scroll-proportion="-8.041667">
+        <state line="79" column="50" selection-start="2103" selection-end="2103" vertical-scroll-proportion="-11.833333">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BANG/forms/editArticle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="20" selection-start="3106" selection-end="3106" vertical-scroll-proportion="-8.25">
+        <state line="22" column="29" selection-start="546" selection-end="546" vertical-scroll-proportion="-9.75">
+          <folding>
+            <marker date="1380539806569" expanded="true" signature="1661:5534" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="1710:5534" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="1740:1915" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="1782:1850" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="1877:1900" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="1985:5532" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="2016:5514" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="2055:2111" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="2151:4841" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="2227:4818" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="2256:2539" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="2304:2345" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="2394:2509" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="2569:2853" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="2617:2657" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="2707:2823" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="2883:3166" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="2931:2971" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="3020:3136" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="3196:3495" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="3244:3290" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="3339:3465" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="3524:3835" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="3572:3624" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="3673:3805" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="3864:4204" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="3912:3958" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="4008:4174" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="4233:4492" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="4281:4327" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="4376:4462" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="4521:4789" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="4569:4603" placeholder="..." />
+            <marker date="1380539806569" expanded="true" signature="4652:4759" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BANG/classes/Article.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="273" column="11" selection-start="8468" selection-end="8485" vertical-scroll-proportion="-11.833333">
+          <folding>
+            <element signature="n#Add#0;n#Article#0;n#!!top" expanded="false" />
+            <element signature="n#getNextArticleID#0;n#Article#0;n#!!top" expanded="false" />
+            <element signature="n#Validate#0;n#Article#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BANG/forms/deleteArticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="33" selection-start="570" selection-end="570" vertical-scroll-proportion="-12.583333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BANG/classes/CurlLib.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="24" selection-start="1208" selection-end="1208" vertical-scroll-proportion="-13.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BANG/classes/Author.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="62" selection-start="1157" selection-end="1157" vertical-scroll-proportion="-18.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BANG/forms/viewArticle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="207" selection-end="207" vertical-scroll-proportion="0.3022388">
+        <state line="45" column="0" selection-start="901" selection-end="901" vertical-scroll-proportion="-4.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BANG/classes/Admin.class.php">
+    <entry file="dbDummy://db-console:/9f3d2c3d/05909c56-4344-4662-b84f-6d2b071aa174/">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.6044776">
+        <state line="17" column="0" selection-start="668" selection-end="668" vertical-scroll-proportion="0.2913386">
           <folding />
         </state>
       </provider>

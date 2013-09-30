@@ -24,14 +24,14 @@ $(function() {
             source:
                 function( request, response ) {
 
-                    var url = "http://data.com/DataAPI.php";
+                    var url = "http://data.com/dataAPI.php";
 
                     $.ajax({
                         url: url,
                         content_type: 'application/json',
                         dataType: 'jsonp',
                         type: "GET",
-                        data: {term: extractLast( request.term )},
+                        data: {catTerm: extractLast( request.term )},
                         success: function(data) {
 
                             var suggestions = [];

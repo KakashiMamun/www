@@ -4,7 +4,7 @@ class Author
     //Page controls
     //this are the pages for which no navigation links are available. Those are actually linked in navigation pages.
     //So we will still check their permissions!
-    public static $subPages = array();
+    public static $subPages = array('viewArticle', 'editArticle','deleteArticle');
     //public static $navigationPages=array('Add Admin'=>'addAdmin', ''=>'', ''=>'', ''=>'', ''=>'', ''=>'');                   
     public static $leftNavigationPages=
         array(
@@ -23,9 +23,7 @@ class Author
                'Article Management' =>
                        array(
                            'New Article'=>'articleCompose',
-                           'View Articles' => 'manageArticles',
-                           'View one Article' => 'viewArticle',
-                           'Edit Article' => 'editArticle'
+                           'View Articles' => 'manageArticles'
 
                        ),
             'Create New Category' =>'createNewCategory',

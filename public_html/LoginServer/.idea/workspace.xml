@@ -4,7 +4,7 @@
     <list default="true" id="4deeb953-96c2-4ae7-906e-09bfad1a5a2c" name="Default" comment="" />
     <ignored path="LoginServer.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4deeb953-96c2-4ae7-906e-09bfad1a5a2c" time="1380042377922" ignored="false" />
+    <file path="/Dummy.txt" changelist="4deeb953-96c2-4ae7-906e-09bfad1a5a2c" time="1380042384144" ignored="false" />
     <file path="/User&amp;othertables.sql" changelist="4deeb953-96c2-4ae7-906e-09bfad1a5a2c" time="1379987039244" ignored="false" />
     <file path="/MariaDB" changelist="4deeb953-96c2-4ae7-906e-09bfad1a5a2c" time="1379987088077" ignored="false" />
     <file path="/LoginModule.php" changelist="4deeb953-96c2-4ae7-906e-09bfad1a5a2c" time="1379987249537" ignored="false" />
@@ -85,6 +85,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -105,14 +106,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataServer" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="PHP Script.loginAPI.php">
@@ -253,11 +253,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sql/User&amp;othertables.sql">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="75" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.7176471" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="dbDummy://db-console:/c2ed492f/05909c56-4344-4662-b84f-6d2b071aa174/">
